@@ -1,5 +1,5 @@
 ---
 layout: home
 ---
-<meta http-equiv="refresh" content="0; url={{ '/program/' | relative_url }}">
-<script>window.location.replace('{{ '/program/' | relative_url }}');</script>
+<meta http-equiv="refresh" content="0; url=/programa-pn26/program/">
+<script>window.location.replace('/programa-pn26/program/');</script>

@@ -7,8 +7,7 @@ baseurl: "/programa-pn26"
 conference:
   lang: es
   title: "Plataforma Nacional para la Gestión del Riesgo de Desastres 2026"
-  url: "https://mromerot.github.io"
-baseurl: "/programa-pn26"
+  url: "https://mromerot.github.io/programa-pn26"
   tz: "-05:00"
 
   navigation:

@@ -1,0 +1,229 @@
+---
+---
+
+/*
+ * PN26 – Plataforma Nacional para la GRD 2026
+ * Paleta institucional UNGRD
+ * ─────────────────────────────────────────────
+ * #27285d  Azul marino   (primario / marca)
+ * #b2a142  Dorado        (acento / énfasis)
+ * #2989d1  Azul vibrante (interacciones / links)
+ * #ffffff  Blanco        (fondos / texto sobre navy)
+ */
+
+/* ─── 1. Variables Bootstrap CSS ─────────────────────────────── */
+
+:root,
+[data-bs-theme="light"] {
+  /* Primary → azul marino UNGRD */
+  --bs-primary:                #27285d;
+  --bs-primary-rgb:            39, 40, 93;
+  --bs-primary-bg-subtle:      #d1d1e5;
+  --bs-primary-border-subtle:  #8d8ebc;
+  --bs-primary-text-emphasis:  #141531;
+
+  /* Links → azul vibrante */
+  --bs-link-color:             #2989d1;
+  --bs-link-color-rgb:         41, 137, 209;
+  --bs-link-hover-color:       #1d6baa;
+  --bs-link-hover-color-rgb:   29, 107, 170;
+
+  /* Acento dorado expuesto como custom prop para reutilizar */
+  --ungrd-gold:                #b2a142;
+  --ungrd-navy:                #27285d;
+  --ungrd-blue:                #2989d1;
+}
+
+[data-bs-theme="dark"] {
+  /* Primary más luminoso para legibilidad en dark */
+  --bs-primary:                #7b7cbf;
+  --bs-primary-rgb:            123, 124, 191;
+  --bs-primary-bg-subtle:      #1a1b3e;
+  --bs-primary-border-subtle:  #3e3f7a;
+  --bs-primary-text-emphasis:  #c8c9e8;
+
+  --bs-link-color:             #69b9f0;
+  --bs-link-hover-color:       #9dd2f7;
+
+  --ungrd-gold:                #d4bc5a;
+  --ungrd-navy:                #3c3d7a;
+  --ungrd-blue:                #69b9f0;
+}
+
+
+/* ─── 2. Barra de navegación ─────────────────────────────────── */
+
+nav.navbar {
+  background-color: #731c70 !important;
+  border-bottom: 3px solid var(--ungrd-gold);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+nav.navbar .navbar-brand {
+  color: #ffffff !important;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+nav.navbar .nav-link {
+  color: rgba(255, 255, 255, 0.85) !important;
+  transition: color 0.15s ease;
+}
+
+nav.navbar .nav-link:hover,
+nav.navbar .nav-link.active {
+  color: var(--ungrd-gold) !important;
+}
+
+nav.navbar .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+nav.navbar .navbar-toggler-icon {
+  filter: invert(1);
+}
+
+nav.navbar .navbar-logo a {
+  color: var(--ungrd-gold);
+  font-weight: 800;
+  font-size: 1.15rem;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+
+
+/* ─── 3. Tipografía y encabezados ────────────────────────────── */
+
+[data-bs-theme="light"] h1,
+[data-bs-theme="light"] h2,
+[data-bs-theme="light"] h3,
+[data-bs-theme="light"] .display-1,
+[data-bs-theme="light"] .display-2,
+[data-bs-theme="light"] .display-3,
+[data-bs-theme="light"] .display-4,
+[data-bs-theme="light"] .display-5 {
+  color: var(--ungrd-navy);
+}
+
+[data-bs-theme="dark"] h1,
+[data-bs-theme="dark"] h2,
+[data-bs-theme="dark"] h3,
+[data-bs-theme="dark"] .display-1,
+[data-bs-theme="dark"] .display-2,
+[data-bs-theme="dark"] .display-3,
+[data-bs-theme="dark"] .display-4,
+[data-bs-theme="dark"] .display-5 {
+  color: var(--bs-primary-text-emphasis);
+}
+
+
+/* ─── 4. Separadores ─────────────────────────────────────────── */
+
+hr {
+  border-color: var(--ungrd-gold);
+  opacity: 0.3;
+}
+
+
+/* ─── 5. Pestañas de días (programa) ─────────────────────────── */
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: var(--ungrd-navy);
+  color: #ffffff;
+}
+
+.nav-pills .nav-link:not(.active) {
+  color: var(--ungrd-navy);
+}
+
+[data-bs-theme="dark"] .nav-pills .nav-link:not(.active) {
+  color: var(--bs-primary-text-emphasis);
+}
+
+.nav-pills .nav-link:not(.active):hover {
+  background-color: rgba(39, 40, 93, 0.1);
+}
+
+[data-bs-theme="dark"] .nav-pills .nav-link:not(.active):hover {
+  background-color: rgba(123, 124, 191, 0.15);
+}
+
+
+/* ─── 6. Tabla del programa – énfasis de borde para sala primary */
+
+.program-table .bg-primary-subtle {
+  border-left-color: var(--ungrd-navy) !important;
+}
+
+
+/* ─── 7. Leyenda de tracks ────────────────────────────────────── */
+
+/* El track "primary" hereda el navy por los CSS vars.
+   Añadimos un borde dorado a la leyenda completa como detalle. */
+.program-table ~ h5 {
+  color: var(--ungrd-navy);
+  border-left: 3px solid var(--ungrd-gold);
+  padding-left: 0.6rem;
+  margin-top: 2rem;
+}
+
+[data-bs-theme="dark"] .program-table ~ h5 {
+  color: var(--bs-primary-text-emphasis);
+}
+
+
+/* ─── 8. Insignias y badges ──────────────────────────────────── */
+
+.badge.bg-primary {
+  background-color: var(--ungrd-navy) !important;
+}
+
+
+/* ─── 9. Botones primary ─────────────────────────────────────── */
+
+.btn-primary {
+  background-color: var(--ungrd-navy);
+  border-color: var(--ungrd-navy);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #1d1e47;
+  border-color: #1d1e47;
+}
+
+.btn-outline-primary {
+  color: var(--ungrd-navy);
+  border-color: var(--ungrd-navy);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--ungrd-navy);
+}
+
+
+/* ─── 10. Detalle dorado en tarjetas de ponentes / charlas ───── */
+
+.card {
+  border-top: 3px solid var(--ungrd-gold);
+}
+
+.card-title a {
+  color: var(--ungrd-navy);
+}
+
+[data-bs-theme="dark"] .card-title a {
+  color: var(--bs-primary-text-emphasis);
+}
+
+
+/* ─── 11. Encabezado de speaker / talk individual ────────────── */
+
+/* Subrayado dorado en el título de la ponencia */
+.display-5 + hr,
+h1 + hr {
+  border-color: var(--ungrd-gold);
+  opacity: 0.6;
+  border-width: 2px;
+}

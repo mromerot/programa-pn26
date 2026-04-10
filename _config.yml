@@ -1,0 +1,72 @@
+theme: jekyll-theme-conference
+
+title: "Plataforma Nacional para la Gestión del Riesgo de Desastres 2026"
+url: "https://mromerot.github.io"
+
+conference:
+  lang: es
+  title: "Plataforma Nacional para la Gestión del Riesgo de Desastres 2026"
+  url: "https://mromerot.github.io"
+  tz: "-05:00"
+
+  navigation:
+    logo:
+      name: PN26
+    links:
+      - name: Programa
+        relative_url: /program/
+      - name: Ponencias
+        relative_url: /talks/
+      - name: Ponentes
+        relative_url: /speakers/
+      - name: Sede
+        relative_url: /location/
+
+  talks:
+    tracks:
+      - name: Conocimiento del Riesgo
+        color: primary
+      - name: Reducción del Riesgo
+        color: success
+      - name: Manejo de Desastres
+        color: danger
+      - name: Gobernanza
+        color: warning
+      - name: Ciencia y Tecnología
+        color: info
+
+  program:
+    url: /program/
+
+  schema_org:
+    organizer:
+      name: "Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD)"
+      url: "https://portal.gestiondelriesgo.gov.co"
+
+collections:
+  talks:
+    output: true
+    permalink: /talks/:name/
+  speakers:
+    output: true
+    permalink: /speakers/:name/
+  rooms:
+    output: true
+    permalink: /rooms/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+  - scope:
+      path: ""
+      type: speakers
+    values:
+      layout: speaker
+  - scope:
+      path: ""
+      type: rooms
+    values:
+      layout: room

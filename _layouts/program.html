@@ -1,0 +1,237 @@
+{%- include get_location_config.html -%}
+{% include header.html %}
+  {% assign nbr_days = site.data.program.days | size -%}
+
+  <h1 class="display-5 {% if nbr_days > 1 -%} mb-2 {%- else -%} mb-4 {%- endif %} text-break">
+    {%- if page.title -%}
+      {{- page.title -}}
+    {%- else -%}
+      {{- site.data.lang[site.conference.lang].program.title | default: "Program" -}}
+    {%- endif -%}
+  </h1>
+
+  {{ content }}
+
+  {%- if nbr_days > 1 %}
+    <nav aria-label="{{ site.data.lang[site.conference.lang].program.days | default: 'Conference days' }}">
+      <ul class="nav nav-pills justify-content-center mb-3" id="program-tabs" role="tablist">
+        {%- for d in site.data.program.days -%}
+          {%- include get_day_hash.html %}
+          <li class="nav-item" role="presentation">
+            <a class="nav-link {%- if forloop.index == 1 %} active{% endif %}" id="tab-{{ day_hash }}" data-bs-toggle="tab" {%- if d.date -%}{%- include get_talk_timestamp.html %} data-ts="{{ timestamp_start }}" {%- endif %} href="#{{ day_hash }}" role="tab" aria-controls="{{ day_hash }}" aria-selected="{% if forloop.index == 1 %}true{% else %}false{% endif %}">{{ day_name }}</a>
+          </li>
+        {%- endfor %}
+      </ul>
+    </nav>
+    <div class="tab-content" id="day-content">
+  {%- endif %}
+
+  {%- for d in site.data.program.days -%}
+    {%- if nbr_days > 1 -%}
+      {%- include get_day_hash.html %}
+      <div class="tab-pane {%- if forloop.index == 1 %} active{% endif %}" id="{{ day_hash }}" role="tabpanel" aria-labelledby="tab-{{ day_hash }}">
+    {%- endif %}
+
+    <div class="program-table-container w-100 overflow-x-scroll">
+      <table class="table program-table w-auto mx-auto align-top mb-0" role="grid" aria-label="{{ site.data.lang[site.conference.lang].program.schedule | default: 'Conference schedule' }}{% if nbr_days > 1 %} - {{ day_name }}{% endif %}">
+        <thead>
+          <tr>
+            <th scope="col" class="program-time text-center" aria-label="{{ site.data.lang[site.conference.lang].program.time | default: 'Time' }}">#</th>
+            <th scope="col" class="program-space"></th>
+            {%- assign nbr_rooms = d.rooms | size -%}
+            {%- for r in d.rooms -%}
+              {%- assign room = site.rooms | where: 'name', r.name | first %}
+              <th scope="col" class="program-talk text-center" id="room-{{ day_hash }}-{{ forloop.index }}">
+                {%- if room.hide or location_hide -%}
+                  {{- room.name -}}
+                {%- else -%}
+                  <a class="text-reset link-underline-primary link-underline-opacity-0 link-underline-opacity-100-hover" href="{{ room.url | prepend: site.baseurl }}">
+                    {{- room.name -}}
+                  </a>
+                {%- endif -%}
+              </th>
+              {%- unless forloop.last %}
+                <th scope="col" class="program-space" aria-hidden="true"></th>
+              {%- endunless -%}
+            {%- endfor %}
+          </tr>
+        </thead>
+
+        <tbody>
+          {%- include get_day_time.html -%}
+
+          {%- if day_end_day > day_start_day -%}
+            {%- assign day_end_hour = day_end_day | minus: day_start_day | times: 24 | plus: day_end_hour -%}
+          {%- endif -%}
+
+          {%- assign day_duration_min = day_end_hour | minus: day_start_hour | times: 60 | minus: day_start_min | plus: day_end_min -%}
+          {%- assign nbr_steps = day_duration_min | divided_by: page.time_steps -%}
+
+          {%- for i in (1..nbr_steps) -%}
+            {%- assign current_day = 0 -%}
+            {%- assign current_hour = i | minus: 1 | times: page.time_steps | plus: day_start_min | divided_by: 60 | floor | plus: day_start_hour -%}
+            {%- if current_hour >= 24 -%}
+              {%- assign current_day = current_hour | divided_by: 24 | floor -%}
+              {%- assign current_hour = current_hour | modulo: 24 -%}
+            {%- endif -%}
+            {%- assign current_min = i | minus: 1 | times: page.time_steps | plus: day_start_min | modulo: 60 -%}
+            {%- if current_min < 10 -%}
+              {%- assign current_time = current_hour | append: ':0' | append: current_min -%}
+            {%- else -%}
+              {%- assign current_time = current_hour | append: ':' | append: current_min -%}
+            {%- endif -%}
+
+            {%- comment -%} ── Detectar breaks transversales ── {%- endcomment -%}
+            {%- assign break_starts_now = false -%}
+            {%- assign active_break = nil -%}
+            {%- assign in_ongoing_break = false -%}
+
+            {%- for b in d.breaks -%}
+              {%- assign b_start_hour = b.time_start | split: ':' | first | plus: 0 -%}
+              {%- assign b_start_min  = b.time_start | split: ':' | last  | plus: 0 -%}
+              {%- assign b_end_hour   = b.time_end   | split: ':' | first | plus: 0 -%}
+              {%- assign b_end_min    = b.time_end   | split: ':' | last  | plus: 0 -%}
+
+              {%- if current_hour == b_start_hour and current_min == b_start_min -%}
+                {%- assign break_starts_now = true -%}
+                {%- assign active_break = b -%}
+              {%- endif -%}
+
+              {%- assign after_start = false -%}
+              {%- if current_hour > b_start_hour -%}{%- assign after_start = true -%}{%- endif -%}
+              {%- if current_hour == b_start_hour and current_min > b_start_min -%}{%- assign after_start = true -%}{%- endif -%}
+
+              {%- assign before_end = false -%}
+              {%- if current_hour < b_end_hour -%}{%- assign before_end = true -%}{%- endif -%}
+              {%- if current_hour == b_end_hour and current_min < b_end_min -%}{%- assign before_end = true -%}{%- endif -%}
+
+              {%- if after_start and before_end -%}
+                {%- assign in_ongoing_break = true -%}
+              {%- endif -%}
+            {%- endfor -%}
+
+            <tr class="h-100">
+
+              {%- if current_min == 0 -%}
+                <th scope="row" class="program-time text-end">
+                  {{- current_time -}}
+                </th>
+              {%- elsif page.show_alltimes -%}
+                <th scope="row" class="program-time text-end text-muted fw-normal">
+                  :{{ current_min }}
+                </th>
+              {%- else -%}
+                <th scope="row"></th>
+              {%- endif %}
+              <td></td>
+
+              {%- if break_starts_now -%}
+                {%- assign b_start_hour = active_break.time_start | split: ':' | first | plus: 0 -%}
+                {%- assign b_start_min  = active_break.time_start | split: ':' | last  | plus: 0 -%}
+                {%- assign b_end_hour   = active_break.time_end   | split: ':' | first | plus: 0 -%}
+                {%- assign b_end_min    = active_break.time_end   | split: ':' | last  | plus: 0 -%}
+                {%- assign b_dur_min    = b_end_hour | minus: b_start_hour | times: 60 | minus: b_start_min | plus: b_end_min -%}
+                {%- assign b_steps      = b_dur_min | divided_by: page.time_steps -%}
+                {%- assign b_cols       = nbr_rooms | times: 2 | minus: 1 -%}
+                <td colspan="{{ b_cols }}" rowspan="{{ b_steps }}" class="program-talk text-center align-middle p-3 bg-secondary-subtle text-secondary-emphasis border-4 border-start border-secondary-subtle shadow-sm">
+                  <strong>{{ active_break.name }}</strong>
+                </td>
+
+              {%- elsif in_ongoing_break == false -%}
+
+                {%- for r in d.rooms -%}
+                  {%- assign room = site.rooms | where: 'name', r.name | first -%}
+
+                  {%- assign active_talk = false -%}
+                  {%- for t in r.talks -%}
+                    {%- assign talk = site.talks | where: 'name', t.name | first -%}
+
+                    {%- include get_talk_time.html -%}
+
+                    {%- assign d_start_hour = current_day | minus: talk_start_day | times: 24 | plus: current_hour | minus: talk_start_hour -%}
+                    {%- assign d_start_min = current_min | minus: talk_start_min -%}
+                    {%- assign d_end_hour = current_day | minus: talk_end_day | times: 24 | plus: current_hour | minus: talk_end_hour -%}
+                    {%- assign d_end_min = current_min | minus: talk_end_min -%}
+
+                    {%- assign has_started = false -%}
+                    {%- if d_start_hour == 0 and d_start_min > 0 -%}
+                      {%- assign has_started = true -%}
+                    {%- endif -%}
+                    {%- if d_start_hour > 0 -%}
+                      {%- assign has_started = true -%}
+                    {%- endif -%}
+
+                    {%- assign has_ended = false -%}
+                    {%- if d_end_hour == 0 and d_end_min >= 0 -%}
+                      {%- assign has_ended = true -%}
+                    {%- endif -%}
+                    {%- if d_end_hour > 0 -%}
+                      {%- assign has_ended = true -%}
+                    {%- endif -%}
+
+                    {%- if has_started == true and has_ended == false -%}
+                      {%- assign active_talk = true -%}
+                    {%- endif -%}
+
+                    {%- if d_start_hour == 0 and d_start_min == 0 -%}
+
+                      {%- assign talk_nbr_steps = talk_duration_min | divided_by: page.time_steps -%}
+                      {%- include get_track_properties.html -%}
+                      <td rowspan="{{ talk_nbr_steps }}" class="program-talk p-0 h-100">
+                        <div class="h-100 p-2 bg-{{ track_color }}-subtle text-{{ track_color }}-emphasis border-4 border-start border-{{ track_color }}-subtle shadow-sm overflow-hidden">
+
+                          {%- include show_live_icon.html class="mb-2" %}
+
+                          <p class="mb-2">
+                            {%- include show_talk.html %}
+                          </p>
+                          <p class="fw-light mb-2">
+                            {%- include list_speakers.html %}
+                          </p>
+                          <p class="mb-1">
+                            {%- include list_tags.html class="text-reset" %}
+                          </p>
+                        </div>
+                      </td>
+                      {%- assign active_talk = true %}
+
+                    {%- endif %}
+
+                  {%- endfor %}
+
+                  {%- unless active_talk == true %}
+                    <td class="program-talk"></td>
+                  {%- endunless -%}
+
+                  {%- if forloop.last != true %}
+                    <td class="program-space"></td>
+                  {%- endif -%}
+
+                {%- endfor %}
+
+              {%- endif -%}
+
+            </tr>
+          {%- endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    {%- if nbr_days > 1 %}
+      </div>
+    {%- endif -%}
+  {%- endfor -%}
+  {%- if nbr_days > 1 %}
+    </div>
+  {%- endif -%}
+
+  {%- if site.conference.talks.tracks %}
+    <h5 class="mt-4">{{ site.data.lang[site.conference.lang].program.legend | default: "Caption" }}</h5>
+      {%- for track_prop in site.conference.talks.tracks %}
+        <div class="d-block d-sm-inline-block m-1 p-1 ps-2 pe-2 bg-{{ track_prop.color | default: 'light' }}-subtle text-{{ track_prop.color | default: 'light' }}-emphasis border-start border-4 border-{{ track_prop.color | default: 'light' }}-subtle fw-normal">
+          {{- track_prop.name -}}
+        </div>
+      {%- endfor -%}
+  {%- endif -%}
+
+{% include footer.html %}

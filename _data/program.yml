@@ -2,6 +2,10 @@ days:
   - name: Miércoles
     abbr: Mié
     date: 2026-05-20
+    breaks:
+      - name: "Espacio Libre / Refrigerio"
+        time_start: "10:00"
+        time_end: "10:30"
     rooms:
       - name: "Auditorio Principal"
         talks:

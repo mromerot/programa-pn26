@@ -1,0 +1,57 @@
+es:
+  pronoun:
+    and: y
+    at: en
+    by: por
+    for: para
+    in: en
+    on_: "el"
+  overview: Resumen
+  more_information: Más información
+  close: Cerrar
+  navigation:
+    main: Navegación principal
+    toggle: Alternar menú de navegación
+    skip_to_content: Ir al contenido
+  live:
+    live: En vivo
+    stream: Transmisión en vivo
+    streams: Transmisiones en vivo
+    pre_stream: La transmisión aún no ha comenzado.
+    pause_stream: La transmisión está en pausa.
+    post_stream: La transmisión ha finalizado.
+    offline: sin conexión
+    time:
+      in: en
+      since: hace
+      weeks: semanas
+      week: semana
+      days: días
+      day: día
+      hours: horas
+      hour: hora
+      minutes: minutos
+      minute: minuto
+      soon: pronto
+      now: ahora
+  location:
+    name: Ubicación
+    navigation: Navegación de salas
+    map_label: Mapa interactivo del lugar
+    rooms: Salas
+    talks: Sesiones en esta sala
+    focus_conf: Centrar mapa en el lugar
+    focus_me: Mostrar mi ubicación actual
+  program:
+    title: Programa
+    legend: Convenciones
+    schedule: Agenda del evento
+    days: Días
+    time: Hora
+  speaker:
+    overview: Ponentes
+    title: Ponente
+    talks: Sesiones en este evento
+  talk:
+    overview: Sesiones
+    title: Sesión

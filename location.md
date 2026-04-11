@@ -1,6 +1,7 @@
 ---
 layout: location
 title: Mapa
+permalink: /location/
 hide: false
 map:
   home_coord: 4.6242815, -74.0838941

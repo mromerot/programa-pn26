@@ -2,7 +2,7 @@
 name: Evaluación de amenaza sísmica en zonas urbanas de Colombia
 speakers:
   - Luz Adriana Peñuela
-track: Conocimiento del Riesgo
+track: Ceremonias
 tags:
   - Sismología
   - Amenaza

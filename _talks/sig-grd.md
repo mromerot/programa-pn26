@@ -2,7 +2,7 @@
 name: Sistemas de información geográfica para la GRD
 speakers:
   - Roberto Arango Mejía
-track: Ciencia y Tecnología
+track: Sesión paralela
 tags:
   - SIG
   - Datos espaciales

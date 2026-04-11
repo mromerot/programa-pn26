@@ -3,7 +3,7 @@ name: Soluciones basadas en la naturaleza para reducción de riesgo
 speakers:
   - Ana María Quintero
   - Álvaro Enrique Díaz
-track: Reducción del Riesgo
+track: Plenaria
 tags:
   - NbS
   - Infraestructura verde

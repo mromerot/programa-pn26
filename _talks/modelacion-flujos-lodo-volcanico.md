@@ -3,7 +3,7 @@ name: Modelación numérica de flujos de lodo volcánico
 speakers:
   - Andrés Felipe Moreno
   - Rodrigo Suárez Parra
-track: Ciencia y Tecnología
+track: Sesión paralela
 tags:
   - Modelación
   - Lahares

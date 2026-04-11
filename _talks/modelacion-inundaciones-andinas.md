@@ -2,7 +2,7 @@
 name: Modelación de inundaciones fluviales en cuencas andinas
 speakers:
   - María Elena Rodríguez
-track: Conocimiento del Riesgo
+track: Sesión temática
 tags:
   - Inundaciones
   - Hidrología

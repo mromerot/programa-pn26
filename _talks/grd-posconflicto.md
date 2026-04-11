@@ -3,7 +3,7 @@ name: Gestión del riesgo en el posconflicto colombiano
 speakers:
   - Julián Ernesto Barrera
   - Natalia Ospina Vélez
-track: Gobernanza
+track: Ceremonias
 tags:
   - Posconflicto
   - Territorios

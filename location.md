@@ -1,6 +1,6 @@
 ---
 layout: location
-title: Sede
+title: Mapa
 hide: false
 map:
   home_coord: 4.6242815, -74.0838941

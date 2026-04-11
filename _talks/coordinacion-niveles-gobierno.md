@@ -3,7 +3,7 @@ name: Coordinación entre niveles de gobierno en emergencias
 speakers:
   - Carlos Andrade Ospina
   - Gustavo Adolfo Cano
-track: Gobernanza
+track: Sesión paralela
 tags:
   - Descentralización
   - Coordinación

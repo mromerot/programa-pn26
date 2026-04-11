@@ -3,7 +3,7 @@ name: Participación comunitaria en la planificación del riesgo
 speakers:
   - Julián Ernesto Barrera
   - Patricia Vásquez Cano
-track: Gobernanza
+track: Dialogos de alto nivel
 tags:
   - Participación
   - Comunidades

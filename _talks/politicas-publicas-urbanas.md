@@ -3,7 +3,7 @@ name: Políticas públicas de reducción del riesgo en contextos urbanos
 speakers:
   - Jorge Iván Salamanca
   - Pilar Sofía Guerrero
-track: Gobernanza
+track: Sesión temática
 tags:
   - Política urbana
   - Ciudades

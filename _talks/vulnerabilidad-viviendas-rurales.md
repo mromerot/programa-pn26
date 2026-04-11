@@ -2,7 +2,7 @@
 name: Análisis de vulnerabilidad estructural en viviendas rurales
 speakers:
   - Eduardo Herrera Llano
-track: Conocimiento del Riesgo
+track: Sesión paralela
 tags:
   - Vulnerabilidad
   - Vivienda rural

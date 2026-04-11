@@ -2,7 +2,7 @@
 name: Reforzamiento estructural de edificaciones escolares
 speakers:
   - Marcela Sánchez Duque
-track: Reducción del Riesgo
+track: Laboratorio de aprendizaje
 tags:
   - Infraestructura
   - Educación

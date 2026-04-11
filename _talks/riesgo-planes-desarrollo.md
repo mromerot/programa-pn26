@@ -2,7 +2,7 @@
 name: Integración del riesgo en planes de desarrollo municipal
 speakers:
   - Gustavo Adolfo Cano
-track: Reducción del Riesgo
+track: Sesión paralela
 tags:
   - Planificación
   - Desarrollo local

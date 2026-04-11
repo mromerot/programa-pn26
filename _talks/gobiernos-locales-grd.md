@@ -2,7 +2,7 @@
 name: El papel de los gobiernos locales en la GRD
 speakers:
   - Gustavo Adolfo Cano
-track: Gobernanza
+track: Laboratorio de aprendizaje
 tags:
   - Gobierno local
   - Municipal

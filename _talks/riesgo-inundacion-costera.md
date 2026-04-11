@@ -2,7 +2,7 @@
 name: Evaluación probabilista del riesgo de inundación costera
 speakers:
   - Ana María Quintero
-track: Conocimiento del Riesgo
+track: Sesión paralela
 tags:
   - Costa
   - Inundación

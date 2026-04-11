@@ -3,7 +3,7 @@ name: Aprendizaje automático en la evaluación de vulnerabilidad
 speakers:
   - Felipe Restrepo Arias
   - Viviana Alejandra Muñoz
-track: Ciencia y Tecnología
+track: Dialogos de alto nivel
 tags:
   - Machine learning
   - Vulnerabilidad

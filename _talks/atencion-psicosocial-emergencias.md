@@ -2,7 +2,7 @@
 name: Atención psicosocial en fases de respuesta y recuperación
 speakers:
   - Diana Carolina Ruiz
-track: Manejo de Desastres
+track: Sesión temática
 tags:
   - Psicosocial
   - Salud mental

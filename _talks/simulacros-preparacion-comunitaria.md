@@ -2,7 +2,7 @@
 name: Simulacros y ejercicios de preparación comunitaria
 speakers:
   - César Augusto Vargas
-track: Manejo de Desastres
+track: Dialogos de alto nivel
 tags:
   - Preparación
   - Simulacros

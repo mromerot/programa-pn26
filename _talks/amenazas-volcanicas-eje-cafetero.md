@@ -2,7 +2,7 @@
 name: Caracterización de amenazas volcánicas en el Eje Cafetero
 speakers:
   - Andrés Felipe Moreno
-track: Conocimiento del Riesgo
+track: Plenaria
 tags:
   - Volcanes
   - Eje Cafetero

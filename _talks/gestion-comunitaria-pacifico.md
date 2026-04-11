@@ -3,7 +3,7 @@ name: Gestión comunitaria del riesgo en el Pacífico colombiano
 speakers:
   - Patricia Vásquez Cano
   - Julián Ernesto Barrera
-track: Reducción del Riesgo
+track: Dialogos de alto nivel
 tags:
   - Comunidades
   - Pacífico

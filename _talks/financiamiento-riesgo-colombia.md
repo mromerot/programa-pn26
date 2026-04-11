@@ -2,7 +2,7 @@
 name: Financiamiento público del riesgo de desastres en Colombia
 speakers:
   - Lina María Cortés
-track: Gobernanza
+track: Sesión paralela
 tags:
   - Financiamiento
   - Presupuesto

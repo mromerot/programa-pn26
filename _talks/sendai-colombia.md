@@ -3,7 +3,7 @@ name: Acuerdos internacionales y el Marco de Sendai en Colombia
 speakers:
   - Carlos Andrade Ospina
   - Sandra Lucía Gómez
-track: Gobernanza
+track: Sesión especial
 tags:
   - Sendai
   - Marco internacional

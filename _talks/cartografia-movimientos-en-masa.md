@@ -2,7 +2,7 @@
 name: Cartografía de susceptibilidad a movimientos en masa
 speakers:
   - Rodrigo Suárez Parra
-track: Conocimiento del Riesgo
+track: Dialogos de alto nivel
 tags:
   - Movimientos en masa
   - SIG

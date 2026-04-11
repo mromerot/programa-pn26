@@ -3,7 +3,7 @@ name: Sistemas de alerta temprana para crecientes súbitas
 speakers:
   - Iván Darío Pérez
   - Patricia Vásquez Cano
-track: Manejo de Desastres
+track: Dialogos de alto nivel
 tags:
   - Alerta temprana
   - Crecientes súbitas

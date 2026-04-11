@@ -2,7 +2,7 @@
 name: Recuperación temprana y medios de vida post-desastre
 speakers:
   - Beatriz Elena Acosta
-track: Manejo de Desastres
+track: Plenaria
 tags:
   - Recuperación
   - Medios de vida

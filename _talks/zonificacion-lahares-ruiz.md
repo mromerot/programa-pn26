@@ -3,7 +3,7 @@ name: Zonificación de amenaza por lahares en el volcán Nevado del Ruiz
 speakers:
   - Andrés Felipe Moreno
   - Rodrigo Suárez Parra
-track: Conocimiento del Riesgo
+track: Ceremonias
 tags:
   - Lahares
   - Volcán Ruiz

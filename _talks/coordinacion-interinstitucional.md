@@ -3,7 +3,7 @@ name: Coordinación interinstitucional en respuesta a emergencias
 speakers:
   - Carlos Andrade Ospina
   - Gustavo Adolfo Cano
-track: Manejo de Desastres
+track: Sesión especial
 tags:
   - Coordinación
   - SNGRD

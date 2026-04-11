@@ -2,7 +2,7 @@
 name: Reasentamiento de comunidades en zonas de alto riesgo
 speakers:
   - Pilar Sofía Guerrero
-track: Reducción del Riesgo
+track: Dialogos de alto nivel
 tags:
   - Reasentamiento
   - Vivienda

@@ -2,7 +2,7 @@
 name: Comunicación de riesgo en situaciones de crisis
 speakers:
   - Mónica Patricia Zamora
-track: Manejo de Desastres
+track: Sesión especial
 tags:
   - Comunicación
   - Medios

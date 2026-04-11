@@ -2,7 +2,7 @@
 name: Logística humanitaria en zonas de difícil acceso
 speakers:
   - Claudia Milena Torres
-track: Manejo de Desastres
+track: Sesión paralela
 tags:
   - Logística
   - Humanitario

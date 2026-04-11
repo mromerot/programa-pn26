@@ -3,7 +3,7 @@ name: Rendición de cuentas y transparencia en la GRD
 speakers:
   - Sandra Lucía Gómez
   - Lina María Cortés
-track: Gobernanza
+track: Sesión paralela
 tags:
   - Transparencia
   - Rendición de cuentas

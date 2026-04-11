@@ -2,7 +2,7 @@
 name: Jardines de lluvia y drenaje urbano sostenible
 speakers:
   - Álvaro Enrique Díaz
-track: Reducción del Riesgo
+track: Laboratorio de aprendizaje
 tags:
   - Drenaje urbano
   - SUDS

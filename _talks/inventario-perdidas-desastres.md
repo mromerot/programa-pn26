@@ -2,7 +2,7 @@
 name: Inventario nacional de pérdidas por desastres 2000-2024
 speakers:
   - Carlos Andrade Ospina
-track: Conocimiento del Riesgo
+track: Laboratorio de aprendizaje
 tags:
   - Pérdidas
   - Estadísticas

@@ -2,7 +2,7 @@
 name: Género y enfoque diferencial en la gestión del riesgo
 speakers:
   - Natalia Ospina Vélez
-track: Gobernanza
+track: Sesión paralela
 tags:
   - Género
   - Enfoque diferencial

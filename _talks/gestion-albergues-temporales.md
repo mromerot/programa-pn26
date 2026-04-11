@@ -3,7 +3,7 @@ name: Gestión de albergues temporales en emergencias masivas
 speakers:
   - Claudia Milena Torres
   - Beatriz Elena Acosta
-track: Manejo de Desastres
+track: Plenaria
 tags:
   - Albergues
   - Respuesta

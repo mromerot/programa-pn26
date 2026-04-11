@@ -3,7 +3,7 @@ name: Gemelos digitales de ciudades para planificación del riesgo
 speakers:
   - Rafael Adolfo Castaño
   - Felipe Restrepo Arias
-track: Ciencia y Tecnología
+track: Sesión especial
 tags:
   - Gemelos digitales
   - Smart city

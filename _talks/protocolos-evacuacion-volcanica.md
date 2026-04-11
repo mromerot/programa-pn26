@@ -3,7 +3,7 @@ name: Protocolos de evacuación ante amenaza volcánica
 speakers:
   - Andrés Felipe Moreno
   - César Augusto Vargas
-track: Manejo de Desastres
+track: Laboratorio de aprendizaje
 tags:
   - Evacuación
   - Volcanes

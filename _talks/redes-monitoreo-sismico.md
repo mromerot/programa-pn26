@@ -3,7 +3,7 @@ name: "Redes de monitoreo sísmico en Colombia: avances y retos"
 speakers:
   - Luz Adriana Peñuela
   - Nelson Fabián Ochoa
-track: Ciencia y Tecnología
+track: Plenaria
 tags:
   - Monitoreo
   - Sismología

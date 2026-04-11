@@ -203,7 +203,21 @@ hr {
 }
 
 
-/* ─── 10. Detalle dorado en tarjetas de ponentes / charlas ───── */
+/* ─── 10. Botón modo día/noche ───────────────────────────────── */
+
+#pn26-theme-toggle {
+  font-size: 1.1rem;
+  line-height: 1;
+  padding: 0.25rem 0.5rem;
+  transition: transform 0.2s ease;
+}
+
+#pn26-theme-toggle:hover {
+  transform: scale(1.15);
+}
+
+
+/* ─── 11. Detalle dorado en tarjetas de ponentes / charlas ───── */
 
 .card {
   border-top: 3px solid var(--ungrd-gold);

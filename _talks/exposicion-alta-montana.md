@@ -2,7 +2,7 @@
 name: Exposición y vulnerabilidad en municipios de alta montaña
 speakers:
   - Jorge Iván Salamanca
-track: Conocimiento del Riesgo
+track: Plenaria
 tags:
   - Exposición
   - Alta montaña

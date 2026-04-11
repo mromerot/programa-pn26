@@ -3,7 +3,7 @@ name: Evaluación de daños y análisis de necesidades (EDAN)
 speakers:
   - Carlos Andrade Ospina
   - Diana Carolina Ruiz
-track: Manejo de Desastres
+track: Plenaria
 tags:
   - EDAN
   - Evaluación

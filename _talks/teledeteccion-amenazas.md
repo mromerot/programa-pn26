@@ -2,7 +2,7 @@
 name: Teledetección aplicada a la identificación de amenazas
 speakers:
   - Roberto Arango Mejía
-track: Ciencia y Tecnología
+track: Sesión especial
 tags:
   - Teledetección
   - Satélites

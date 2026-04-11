@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="{{ site.conference.lang | default: 'en' }}">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <script>
+    // Apply theme immediately (localStorage > system preference) to prevent flash
+    (function() {
+      var saved = localStorage.getItem('pn26-theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      var theme = saved || (prefersDark ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+
+    {%- if site.conference.pwa and site.conference.pwa.enable %}
+    (function() {
+      const isStandalone = (navigator.standalone || window.matchMedia("(display-mode: standalone)").matches);
+      document.documentElement.setAttribute('data-pwa', isStandalone ? 'true' : 'false');
+    })();
+    {%- endif -%}
+  </script>
+
+  {% include get_page_title.html -%}
+  <title>
+    {{- page_title -}}
+    {%- unless page_title == empty %} - {% endunless -%}
+    {{- site.title -}}
+  </title>
+  {% include list_header_meta.html %}
+
+  {% if site.conference.custom_style == "bootstrap" %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap.min.css?t={{ site.time | date: '%s' }}" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/conference-only.bundle.css?t={{ site.time | date: '%s' }}" />
+  {% elsif site.conference.custom_style != "full" %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/conference.bundle.css?t={{ site.time | date: '%s' }}" />
+  {% endif %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css?t={{ site.time | date: '%s' }}" />
+
+  {% include list_header_live.html %}
+  {% include list_header_pwa.html %}
+</head>
+
+<body class="min-vh-100">
+  <a href="#main" class="visually-hidden-focusable position-absolute top-0 start-0">
+    {{ site.data.lang[site.conference.lang].navigation.skip_to_content | default: "Skip to content" }}
+  </a>
+  <header>
+    {%- include navbar.html -%}
+
+    {%- unless page.url == "/" -%}
+      <div class="container d-none d-print-block mt-4 mb-4">
+        <h1 class="display-4">
+          {{ site.title }}
+        </h1>
+      </div>
+    {%- endunless -%}
+
+  </header>
+  <main id="main" class="container my-3" role="main" tabindex="-1">
+
+    {%- include infobox.html -%}

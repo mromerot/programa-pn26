@@ -2,7 +2,7 @@
 name: Plataformas de datos abiertos para la gestión del riesgo
 speakers:
   - Rafael Adolfo Castaño
-track: Ciencia y Tecnología
+track: Plenaria
 tags:
   - Datos abiertos
   - Ciencia ciudadana

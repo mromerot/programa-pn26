@@ -2,7 +2,7 @@
 name: Protección de ecosistemas como medida de reducción del riesgo
 speakers:
   - Ana María Quintero
-track: Reducción del Riesgo
+track: Laboratorio de aprendizaje
 tags:
   - Ecosistemas
   - NbS

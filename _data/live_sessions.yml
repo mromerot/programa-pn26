@@ -1,0 +1,231 @@
+jueves:
+  - hora: "08:00–08:15"
+    titulo: "Demo en vivo: Visor de alertas tempranas del SGC"
+    presentador: "Ing. Laura Ospina · SGC"
+    resumen: "El Servicio Geológico Colombiano presenta su plataforma integrada de visualización de alertas sísmicas, volcánicas e hidrometeorológicas en tiempo real. La demostración muestra cómo los operadores acceden a dashboards unificados con umbrales configurables y notificaciones automáticas. Se destacan los avances en la integración de datos de la red de sismógrafos y estaciones meteorológicas del país."
+
+  - hora: "08:15–08:30"
+    titulo: "Flash talk: Uso de drones en inspección post-sísmica"
+    presentador: "MSc. Andrés Pedraza · UNGRD"
+    resumen: "Se presenta la metodología estandarizada de la UNGRD para el despliegue de vehículos aéreos no tripulados en inspección estructural después de eventos sísmicos. El protocolo define roles de equipo, rutas de vuelo sistemáticas y criterios de priorización de zonas de inspección. Los resultados de campo muestran tiempos de inspección hasta cuatro veces menores que los métodos presenciales tradicionales."
+
+  - hora: "08:30–08:45"
+    titulo: "Demo: Plataforma SIGER — registro de emergencias"
+    presentador: "Lic. Camila Ríos · UNGRD"
+    resumen: "El Sistema de Información para la Gestión de Emergencias y Desastres (SIGER) es la herramienta oficial de la UNGRD para el registro y seguimiento de eventos de emergencia en el territorio nacional. La sesión muestra el flujo completo desde el reporte inicial hasta el cierre del evento, incluyendo la gestión de recursos y la generación de informes de situación. Se presentan las mejoras recientes en la interfaz móvil y la sincronización offline para zonas sin conectividad."
+
+  - hora: "08:45–09:00"
+    titulo: "Flash talk: Mapeo participativo con ODK Collect"
+    presentador: "Dr. Felipe Arango · Uniandes"
+    resumen: "ODK Collect permite diseñar formularios georeferenciados que comunidades y brigadistas pueden diligenciar desde teléfonos Android sin conexión a internet. La experiencia de la Universidad de los Andes en municipios del Chocó muestra cómo el mapeo participativo enriquece los planes de gestión del riesgo con conocimiento local. Se comparten plantillas de formularios adaptadas al lenguaje comunitario y listas para descargar."
+
+  - hora: "09:00–09:15"
+    titulo: "Demo en vivo: Modelos de inundación con HEC-RAS"
+    presentador: "Ing. Sara Molina · IDEAM"
+    resumen: "El IDEAM demuestra el uso del modelo hidráulico HEC-RAS 2D para simulación de escenarios de inundación en cuencas colombianas de alta complejidad. La sesión incluye la configuración de condiciones de contorno, importación de topografía LiDAR y visualización de mapas de lámina de agua y velocidad de flujo. Se presentan los resultados del modelamiento para la cuenca del río Cauca como caso de estudio."
+
+  - hora: "09:15–09:30"
+    titulo: "Flash talk: Evaluación de daños con IA en imágenes satelitales"
+    presentador: "Dra. Valentina Cruz · EAFIT"
+    resumen: "Investigadoras del grupo GRD-Lab de EAFIT presentan un modelo de visión artificial entrenado con imágenes Sentinel-2 para la detección automática de daños estructurales post-desastre. El clasificador alcanza una precisión del 87 % en conjuntos de validación derivados de eventos reales en Latinoamérica. La herramienta está disponible como API de acceso abierto para organismos de respuesta humanitaria."
+
+  - hora: "09:45–10:00"
+    titulo: "Demo: Tablero de monitoreo volcánico en tiempo real"
+    presentador: "Dr. Hernán Mora · SGC"
+    resumen: "El Observatorio Vulcanológico del SGC presenta el tablero integrado de telemetría que consolida señales sísmicas, deformación del suelo, geoquímica de gases y cámaras térmicas de los volcanes activos del país. La demostración en vivo muestra la interfaz de análisis espectral y los algoritmos de detección automática de señales precursoras. Se explica el flujo de decisión para la emisión de boletines de actividad volcánica."
+
+  - hora: "10:00–10:15"
+    titulo: "Flash talk: Integración de IoT en redes de alerta comunitaria"
+    presentador: "Ing. Juliana Vargas · MinTIC"
+    resumen: "El Ministerio de Tecnologías comparte la experiencia piloto de redes de sensores IoT de bajo consumo (LoRaWAN) para sistemas de alerta temprana a nivel veredal en zonas de ladera. Los dispositivos miden niveles de quebrada, lluvia acumulada y humedad del suelo, transmitiendo datos cada cinco minutos sin requerir infraestructura celular. Se presentan costos de implementación, lecciones aprendidas y el mapa de municipios participantes."
+
+  - hora: "10:15–10:30"
+    titulo: "Demo en vivo: Gemelos digitales para planificación urbana"
+    presentador: "Arq. Diego Salcedo · IGAC"
+    resumen: "El IGAC muestra cómo los modelos de ciudad 3D basados en datos LiDAR, ortofotografía y catastro multifinalitario sirven como gemelos digitales para simular escenarios de riesgo urbano. La demostración incluye la superposición de amenazas sísmicas y de inundación sobre el tejido urbano de un municipio piloto, identificando zonas críticas de exposición. Esta herramienta apoya la formulación de planes de ordenamiento territorial con criterios de reducción del riesgo."
+
+  - hora: "10:30–10:45"
+    titulo: "Flash talk: Machine learning para predicción de deslizamientos"
+    presentador: "MSc. Natalia Gómez · UN Medellín"
+    resumen: "Se presenta un modelo de gradient boosting entrenado con datos históricos de deslizamientos del SGC, variables topográficas SRTM y registros pluviométricos del IDEAM para producir mapas dinámicos de susceptibilidad. El modelo actualiza las predicciones cada hora durante eventos de lluvia intensa, con una tasa de detección del 91 % en eventos de prueba. La herramienta está integrada al sistema de alertas del Área Metropolitana del Valle de Aburrá."
+
+  - hora: "10:45–11:00"
+    titulo: "Demo: App móvil de reporte ciudadano de emergencias"
+    presentador: "Ing. Mauricio León · UNGRD"
+    resumen: "La aplicación ciudadana de la UNGRD permite reportar emergencias con foto, audio y ubicación GPS directamente desde un teléfono inteligente, alimentando en tiempo real los tableros de situación del CRUE. La sesión muestra el flujo completo desde el reporte ciudadano hasta la asignación de equipo de respuesta y la notificación de cierre al reportante. Se presentan estadísticas de uso durante el último año y los planes de expansión a municipios con Comités Locales activos."
+
+  - hora: "11:15–11:30"
+    titulo: "Flash talk: Evaluación de vulnerabilidad con visión por computador"
+    presentador: "Dr. Ricardo Patiño · Unal Bogotá"
+    resumen: "Un equipo de la Universidad Nacional desarrolló una red neuronal convolucional que clasifica la vulnerabilidad sísmica de edificaciones a partir de fotografías de fachada tomadas con teléfono móvil. El modelo fue entrenado con más de 40 000 imágenes etiquetadas de edificaciones colombianas y alcanza una exactitud del 85 % en la clasificación de tres niveles de vulnerabilidad. La herramienta está siendo validada como complemento al censo de edificaciones del DANE."
+
+  - hora: "11:30–11:45"
+    titulo: "Demo en vivo: CLIMADA — pérdidas económicas por eventos extremos"
+    presentador: "Dra. Adriana Vargas · ETH Zurich"
+    resumen: "CLIMADA es una plataforma de código abierto desarrollada en Python para el cálculo probabilístico de pérdidas económicas por eventos climáticos extremos. La demostración muestra la configuración de un análisis de riesgo por inundación fluvial en la región Caribe colombiana, incluyendo la generación de curvas de excedencia de pérdidas y mapas de riesgo agregado. Se presentan los módulos de análisis de beneficio-costo de medidas de adaptación disponibles en la versión más reciente."
+
+  - hora: "11:45–12:00"
+    titulo: "Flash talk: Cartografía social digital para GRD comunitaria"
+    presentador: "Lic. Paola Suárez · Cruz Roja"
+    resumen: "La Cruz Roja Colombiana presenta su metodología de cartografía social digital que combina talleres presenciales con plataformas como Mapeo.io y OpenStreetMap para que las comunidades documenten sus propios riesgos y capacidades. La experiencia en comunidades afrocolombianas del Pacífico muestra cómo los mapas producidos enriquecen los planes comunitarios de gestión del riesgo con información que los estudios técnicos no capturan. Se comparten los kits pedagógicos y las guías facilitadoras disponibles de forma abierta."
+
+  - hora: "14:00–14:15"
+    titulo: "Demo: Simulador de evacuación con agentes autónomos"
+    presentador: "Dr. Esteban Rueda · Unal Manizales"
+    resumen: "El Laboratorio de Modelamiento de la Universidad Nacional de Manizales presenta una herramienta de simulación multiagente que modela el comportamiento de evacuación de poblaciones en escenarios de amenaza volcánica. El sistema permite configurar distintos perfiles de comportamiento (familias con niños, adultos mayores, vehículos) y evaluar la capacidad de rutas de evacuación ante diferentes eventos de activación. Los resultados apoyan la actualización de planes de contingencia en los municipios de la zona de influencia del Volcán Nevado del Ruiz."
+
+  - hora: "14:15–14:30"
+    titulo: "Flash talk: Sensores de bajo costo para monitoreo de cauces"
+    presentador: "Ing. Clara Herrera · IDEAM"
+    resumen: "Se presenta el diseño de una red de sensores hidrológicos de bajo costo basada en microcontroladores Arduino y sensores ultrasónicos para monitoreo del nivel de corrientes en cuencas sin estaciones convencionales. Los dispositivos transmiten datos vía SMS o LoRa y tienen un costo de fabricación inferior a 80 USD por unidad. La red piloto en la cuenca del río Combeima demostró alertar con 45 minutos de anticipación ante crecientes súbitas registradas durante la temporada de lluvias."
+
+  - hora: "14:30–14:45"
+    titulo: "Demo en vivo: Plataforma OpenDRI para datos abiertos de riesgo"
+    presentador: "Lic. Samuel Díaz · PNUD"
+    resumen: "La Iniciativa Global de Datos Abiertos para la Resiliencia (OpenDRI) ofrece un ecosistema de herramientas para la producción, gestión y análisis de datos de riesgo de desastres de acceso libre. La demostración muestra el uso del GeoNode del PNUD Colombia para publicar capas de amenaza y exposición bajo estándares internacionales de metadatos. Se presenta el proceso de integración de los datos nacionales del SGC e IDEAM a la plataforma regional de la comunidad de práctica CAPRA."
+
+  - hora: "14:45–15:00"
+    titulo: "Flash talk: Análisis de redes sociales en gestión de crisis"
+    presentador: "MSc. Tatiana Bermúdez · Javeriana"
+    resumen: "Investigadores de la Pontificia Universidad Javeriana presentan una metodología de monitoreo de redes sociales (Twitter/X, Facebook, TikTok) para detección temprana de emergencias y seguimiento del impacto percibido por la ciudadanía. El sistema de procesamiento de lenguaje natural clasifica publicaciones en tiempo real según tipo de evento, zona geográfica y nivel de urgencia. Se muestran los resultados del monitoreo realizado durante las inundaciones del Atlántico en 2024 y su utilidad para los equipos de comunicaciones del SNGRD."
+
+  - hora: "15:00–15:15"
+    titulo: "Demo: Sistema de comando de incidentes en entorno virtual"
+    presentador: "Mayor Carlos Niño · Defensa Civil"
+    resumen: "La Defensa Civil Colombiana presenta una plataforma de entrenamiento inmersivo basada en escenarios 3D interactivos para la práctica del Sistema Comando de Incidentes (SCI). La sesión simula la respuesta a un accidente industrial con múltiples víctimas, mostrando cómo los participantes asumen roles del SCI y toman decisiones tácticas en tiempo real. La herramienta está disponible para los Comités Locales de Gestión del Riesgo y no requiere hardware especializado."
+
+  - hora: "15:15–15:30"
+    titulo: "Flash talk: Radioaficionados y comunicaciones de emergencia"
+    presentador: "Ing. Juan Pablo Ossa · LIGA"
+    resumen: "La Liga Colombiana de Radioaficionados presenta el rol estratégico de su red voluntaria de comunicadores de emergencia cuando los sistemas convencionales de telecomunicaciones colapsan. Se muestran los protocolos de activación, las frecuencias designadas para emergencias y la cobertura geográfica de la red de repetidores a nivel nacional. La experiencia durante el terremoto de Bahía Solano destaca cómo los radioaficionados fueron el único medio de comunicación durante las primeras 18 horas."
+
+  - hora: "15:45–16:00"
+    titulo: "Demo en vivo: LiDAR aéreo en zonas de ladera"
+    presentador: "Ing. Sofía Acosta · IGAC"
+    resumen: "El IGAC demuestra el procesamiento de nubes de puntos LiDAR de alta densidad para la identificación de inestabilidades geomorfológicas en zonas de ladera del Eje Cafetero. El flujo de trabajo incluye clasificación de puntos, generación de modelos digitales de elevación, extracción de rasgos de movimientos en masa y comparación multitemporal para detección de deformaciones activas. Los productos generados alimentan directamente el mapa nacional de susceptibilidad a deslizamientos del SGC."
+
+  - hora: "16:00–16:15"
+    titulo: "Flash talk: Blockchain para trazabilidad en ayuda humanitaria"
+    presentador: "Dr. Rodrigo Cano · DNP"
+    resumen: "El Departamento Nacional de Planeación presenta un piloto de uso de tecnología blockchain para asegurar la trazabilidad de recursos de ayuda humanitaria desde la donación hasta la entrega al beneficiario. El sistema registra cada transacción en una cadena distribuida inmutable que permite auditorías en tiempo real sin depender de una entidad central. Se presentan los resultados del piloto realizado durante la atención de la emergencia por desplazamiento en el Catatumbo."
+
+  - hora: "16:15–16:30"
+    titulo: "Demo: Realidad aumentada para formación en primeros auxilios"
+    presentador: "Lic. Mariana Reyes · Cruz Roja"
+    resumen: "La Cruz Roja Colombiana presenta una aplicación de realidad aumentada que superpone instrucciones paso a paso sobre el cuerpo del paciente para guiar a personas sin formación médica en maniobras de RCP y control de hemorragias. La herramienta funciona con cualquier teléfono con cámara trasera y ha sido validada en ensayos con brigadistas comunitarios mostrando una mejora del 60 % en la correcta ejecución de maniobras. Se anuncian los planes de distribución gratuita para Comités Comunitarios de Gestión del Riesgo."
+
+viernes:
+  - hora: "08:00–08:15"
+    titulo: "Demo en vivo: Modelo probabilista de amenaza sísmica nacional"
+    presentador: "Dr. Álvaro Díaz · SGC"
+    resumen: "El SGC presenta la versión actualizada del Modelo Nacional de Amenaza Sísmica de Colombia, base técnica de la norma de construcción sismo-resistente NSR-10. La demostración muestra la interfaz del geoportal para consulta de aceleraciones espectrales, mapas de isoaceleración y curvas de peligro para cualquier punto del territorio. Se explica la metodología de árbol lógico utilizada para integrar incertidumbres epistémicas y aleatorias en el cálculo probabilístico."
+
+  - hora: "08:15–08:30"
+    titulo: "Flash talk: Teledetección hiperespectral para incendios forestales"
+    presentador: "Dra. Beatriz Acosta · IDEAM"
+    resumen: "Se presentan los avances del IDEAM en el uso de imágenes hiperespectrales de los satélites PRISMA y DESIS para detección temprana y caracterización de incendios forestales en Colombia. Los sensores hiperespectrales permiten identificar el tipo de combustible, la intensidad del fuego y la composición química del humo con mayor precisión que los sensores multiespectrales convencionales. Los productos derivados alimentan el Sistema de Alerta Temprana por Incendios de la Cobertura Vegetal del IDEAM."
+
+  - hora: "08:30–08:45"
+    titulo: "Demo: Plataforma de gestión de albergues — módulo digital"
+    presentador: "Lic. Olga Mendoza · UNGRD"
+    resumen: "La UNGRD presenta el módulo digital de gestión de albergues temporales integrado a la plataforma SIGER, que permite el registro de familias damnificadas, el inventario de suministros y la asignación de espacios en tiempo real. La demostración muestra cómo los coordinadores de albergue actualizan la información desde tabletas, generando automáticamente los informes de situación requeridos por los Centros de Coordinación. El sistema incorpora alertas automáticas cuando el índice de ocupación supera el 80 % de la capacidad instalada."
+
+  - hora: "08:45–09:00"
+    titulo: "Flash talk: Sistemas de alerta multihazard integrados"
+    presentador: "Ing. Iván Pérez · WMO Colombia"
+    resumen: "La Organización Meteorológica Mundial presenta los estándares internacionales para el diseño de sistemas de alerta temprana que integran múltiples tipos de amenaza bajo una arquitectura común de datos y canales de difusión. Se discuten los principios del protocolo CAP (Common Alerting Protocol) para la estandarización de mensajes de alerta multicanal. Se muestran experiencias exitosas en el Caribe y Asia Pacífico aplicables al contexto colombiano."
+
+  - hora: "09:00–09:15"
+    titulo: "Demo en vivo: Análisis de riesgo costero con modelos de oleaje"
+    presentador: "Dr. Jorge Salamanca · DIMAR"
+    resumen: "La Dirección General Marítima demuestra el uso de los modelos numéricos SWAN y ADCIRC para simular escenarios de oleaje extremo, marejada ciclónica y tsunami en las costas colombianas del Pacífico y Caribe. Los resultados permiten generar mapas de inundación costera para diferentes períodos de retorno, insumo fundamental para la zonificación de amenaza en los planes de ordenamiento de municipios costeros. Se presentan los datos de oleaje en tiempo real disponibles en el portal de DIMAR para uso de autoridades locales."
+
+  - hora: "09:15–09:30"
+    titulo: "Flash talk: Recuperación de datos en zonas sin conectividad"
+    presentador: "Ing. Lina Cortés · MinTIC"
+    resumen: "El Ministerio TIC presenta protocolos y tecnologías para la recopilación y transmisión de datos de campo en zonas rurales y de difícil acceso sin cobertura celular. Las soluciones incluyen redes mesh inalámbricas de corto alcance, conexiones satelitales de emergencia y dispositivos con almacenamiento local para sincronización diferida. La guía de implementación desarrollada con la UNGRD está disponible para las unidades departamentales de gestión del riesgo."
+
+  - hora: "09:45–10:00"
+    titulo: "Demo: Visor nacional de riesgo por movimientos en masa"
+    presentador: "Dr. Eduardo Herrera · SGC"
+    resumen: "El SGC presenta el geoportal de consulta del Mapa Nacional de Susceptibilidad a Movimientos en Masa en escala 1:100.000, resultado del convenio con el IGAC y las corporaciones autónomas regionales. La plataforma permite superponer capas de lluvia acumulada en tiempo real, vías afectadas y áreas con antecedentes históricos de deslizamientos. Se muestra el procedimiento para que los Consejos Municipales descarguen los datos de su jurisdicción e integren en sus planes de gestión del riesgo."
+
+  - hora: "10:00–10:15"
+    titulo: "Flash talk: Financiamiento climático y riesgo — herramientas de diagnóstico"
+    presentador: "MSc. Claudia Torres · Banco Mundial"
+    resumen: "El Banco Mundial presenta sus herramientas de diagnóstico para evaluar las necesidades de financiamiento climático y de gestión del riesgo de desastres en países de renta media como Colombia. El marco incluye el análisis de brechas de protección financiera, el diseño de capas de riesgo financiero y la identificación de instrumentos apropiados (bonos catástrofe, seguros paramétricos, fondos de reserva). Se discuten las oportunidades abiertas por el Fondo Verde del Clima y el GEF para proyectos colombianos."
+
+  - hora: "10:15–10:30"
+    titulo: "Demo en vivo: Plataforma SIG municipal para CMGRD"
+    presentador: "Ing. Rafael Castaño · IGAC"
+    resumen: "El IGAC demuestra una plataforma SIG web simplificada diseñada específicamente para los Consejos Municipales de Gestión del Riesgo de municipios con capacidad técnica limitada. La herramienta permite visualizar, editar y descargar capas temáticas de amenaza, elementos expuestos y capacidades de respuesta sin necesidad de licencias de software propietario. Se presenta el proceso de asistencia técnica del IGAC para la adopción de la plataforma en los 30 municipios piloto del programa."
+
+  - hora: "10:30–10:45"
+    titulo: "Flash talk: Fotogrametría con UAV en evaluación de lahares"
+    presentador: "Ing. Marcela Sánchez · SGC"
+    resumen: "El SGC presenta la metodología de vuelos fotogramétricos con drones de ala fija para el mapeo rápido de depósitos de lahar en los drenajes del Volcán Nevado del Ruiz. Los modelos de elevación de alta resolución generados permiten estimar volúmenes de material depositado y proyectar trayectorias de flujos futuros. La comparación de vuelos antes y después de eventos de actividad volcánica muestra cambios morfológicos en el cauce del río Lagunilla detectados en menos de 48 horas."
+
+  - hora: "10:45–11:00"
+    titulo: "Demo: Sistema de información de pérdidas DesInventar Colombia"
+    presentador: "MSc. Pilar Guerrero · OSSO Corp"
+    resumen: "OSSO Corporation presenta DesInventar Colombia, la base de datos histórica de registros de pérdidas y daños por desastres que cubre el período 1914–2024 con más de 32 000 eventos documentados. La sesión muestra el uso del sistema para análisis de tendencias, identificación de zonas de recurrencia y estimación de pérdidas acumuladas por tipo de amenaza y departamento. Se explica la metodología de captura y verificación de datos y se presenta la nueva interfaz de consulta geoespacial disponible en línea."
+
+  - hora: "11:15–11:30"
+    titulo: "Flash talk: Indicadores de resiliencia urbana — metodología USAID"
+    presentador: "Dra. Mónica Zamora · USAID Colombia"
+    resumen: "USAID Colombia presenta el marco de medición de resiliencia urbana adaptado al contexto latinoamericano a partir de la metodología City Resilience Index del Arup Group. La herramienta evalúa 56 indicadores en cuatro dimensiones (salud y bienestar, economía y sociedad, infraestructura y ecosistemas, liderazgo y estrategia) y produce perfiles comparables entre ciudades. Se presentan los resultados de la aplicación del marco en tres ciudades intermedias colombianas con el apoyo de USAID."
+
+  - hora: "11:30–11:45"
+    titulo: "Demo en vivo: App de evaluación rápida de daños en estructuras"
+    presentador: "Ing. Nelson Ochoa · AIS"
+    resumen: "La Asociación Colombiana de Ingeniería Sísmica presenta la aplicación móvil para inspección técnica post-evento desarrollada según el protocolo ATC-20 adaptado al contexto colombiano. La herramienta guía al inspector a través de los formularios de evaluación rápida y detallada, generando automáticamente el etiquetado de habitabilidad (verde, amarillo, rojo) y el reporte PDF para las autoridades. La app funciona sin conexión a internet y sincroniza los datos al recuperarse la conectividad."
+
+  - hora: "11:45–12:00"
+    titulo: "Flash talk: Comunicación de riesgo con lenguaje claro y accesible"
+    presentador: "Lic. Patricia Vásquez · OCHA"
+    resumen: "OCHA presenta los principios de comunicación de riesgo inclusiva aplicados a la formulación de mensajes de alerta y preparación para comunidades con barreras de alfabetización, discapacidad visual o auditiva, y diversidad lingüística indígena. Se comparten las guías del proyecto Communicating Disaster Risk (CDR) para la producción de materiales accesibles en formatos variados (audio, imagen, lenguaje de señas). La sesión concluye con ejercicios prácticos de reformulación de mensajes de alerta usando los principios del lenguaje claro."
+
+  - hora: "14:00–14:15"
+    titulo: "Demo: Tablero de indicadores Sendai para Colombia"
+    presentador: "Dra. Sandra Gómez · UNGRD"
+    resumen: "La UNGRD presenta el tablero nacional de seguimiento a los indicadores del Marco de Acción de Sendai 2015-2030, adaptado al sistema de información del SNGRD colombiano. El tablero consolida datos de mortalidad, afectación, pérdidas económicas y disrupciones de servicios esenciales por evento, alineados con los siete objetivos globales del Marco Sendai. Se muestra el proceso de reporte bianual a la Oficina de las Naciones Unidas para la Reducción del Riesgo de Desastres (UNDRR) y el estado de avance de Colombia."
+
+  - hora: "14:15–14:30"
+    titulo: "Flash talk: Plataformas de crowdsourcing en respuesta a desastres"
+    presentador: "MSc. Viviana Muñoz · Uniandes"
+    resumen: "Se presentan las lecciones aprendidas del uso de Ushahidi y OpenStreetMap en la activación de voluntarios digitales durante emergencias recientes en Colombia. La investigadora de Uniandes documenta cómo la inteligencia colectiva de cientos de mapeadores remotos puede generar cartografía de respuesta de alta calidad en pocas horas. Se discuten los desafíos de coordinación, verificación de información y sostenibilidad de las comunidades de mapeadores voluntarios."
+
+  - hora: "14:30–14:45"
+    titulo: "Demo en vivo: Análisis de exposición con datos del DANE"
+    presentador: "Ing. César Vargas · DANE"
+    resumen: "El DANE presenta la metodología para estimar la exposición de población y vivienda a amenazas naturales usando los microdatos del Censo Nacional de Población y Vivienda 2018 cruzados con capas de amenaza del SGC e IDEAM. La demostración muestra el cálculo del índice de exposición por municipio para amenazas sísmica, volcánica e hídrica, desagregado por grupos poblacionales vulnerables. Los resultados están disponibles en el geoportal del DANE para consulta y descarga libre."
+
+  - hora: "14:45–15:00"
+    titulo: "Flash talk: Acceso a financiamiento del Fondo Adaptación"
+    presentador: "MSc. Ana Quintero · Fondo Adaptación"
+    resumen: "El Fondo Adaptación presenta los mecanismos, criterios de elegibilidad y proceso de formulación para acceder a recursos destinados a proyectos de adaptación al cambio climático y reducción del riesgo de desastres en el territorio nacional. Se discuten las líneas de financiamiento para gestión integral del riesgo hídrico, infraestructura resiliente y fortalecimiento de capacidades institucionales. Se comparten casos exitosos de municipios que accedieron a financiamiento y los errores comunes en la formulación de proyectos."
+
+  - hora: "15:00–15:15"
+    titulo: "Demo: Simulacro virtual de evacuación — herramienta interactiva"
+    presentador: "Dr. Rodrigo Suárez · Unal Bogotá"
+    resumen: "La Universidad Nacional presenta una plataforma gamificada basada en tecnología web 3D que permite a ciudadanos practicar protocolos de evacuación en réplicas virtuales de sus propios barrios o edificios. La herramienta incorpora mecánicas de decisión bajo presión, escenarios de amenaza variables y retroalimentación inmediata sobre los errores cometidos durante la evacuación simulada. El piloto con comunidades del barrio El Codito en Bogotá mostró un incremento del 74 % en el conocimiento de rutas de evacuación tras una sola sesión de 20 minutos."
+
+  - hora: "15:15–15:30"
+    titulo: "Flash talk: Gobernanza de datos en el SNGRD"
+    presentador: "Lic. Gustavo Cano · UNGRD"
+    resumen: "La UNGRD presenta el marco de gobernanza de datos del Sistema Nacional para la Gestión del Riesgo de Desastres, que establece principios, roles y estándares para la producción, intercambio y uso de información de riesgo entre las entidades del Sistema. Se discuten los avances en la articulación con la Política de Gobierno Digital del MIPG y la implementación de los estándares de datos abiertos exigidos por la Ley de Transparencia. El marco busca garantizar la calidad, interoperabilidad y sostenibilidad de los datos producidos por el SNGRD."
+
+  - hora: "15:45–16:00"
+    titulo: "Demo en vivo: Inteligencia artificial para clasificación de afectaciones"
+    presentador: "Dr. Julián Barrera · MinCiencias"
+    resumen: "MinCiencias presenta los resultados del proyecto de I+D financiado con recursos del Fondo de Ciencia, Tecnología e Innovación para el desarrollo de un sistema de IA que clasifica automáticamente los reportes de afectación recibidos por el CRUE. El modelo de procesamiento de lenguaje natural extrae entidades (tipo de evento, ubicación, número de afectados, tipo de daño) de reportes en texto libre y los estructura en la base de datos del SIGER. La precisión del sistema supera el 92 % en el conjunto de prueba y está siendo integrado al flujo de trabajo operacional de la UNGRD."
+
+  - hora: "16:00–16:15"
+    titulo: "Flash talk: Red de observatorios de riesgo departamentales"
+    presentador: "MSc. María Rodríguez · UNGRD"
+    resumen: "La UNGRD presenta el estado de consolidación de la red de Observatorios Departamentales de Gestión del Riesgo de Desastres, estrategia para fortalecer la producción y el análisis de información de riesgo a escala territorial. Se muestra el modelo de operación de los observatorios piloto de Nariño, Cauca y Huila, y los protocolos de intercambio de datos con el nivel nacional. Se invita a los representantes departamentales a conocer los requisitos para la adhesión al programa en la siguiente vigencia."
+
+  - hora: "16:15–16:30"
+    titulo: "Clausura de Escenarios en Vivo — reflexiones y próximos pasos"
+    presentador: "Dirección UNGRD"
+    resumen: "La Dirección General de la UNGRD cierra el espacio de Escenarios en Vivo con una síntesis de los aprendizajes más relevantes identificados a lo largo de las dos jornadas de demostraciones e intercambio de experiencias. Se presentan los compromisos de continuidad para las herramientas y metodologías con mayor potencial de escalamiento en el SNGRD. La sesión concluye con un llamado a la articulación entre las instituciones participantes para avanzar hacia un ecosistema digital integrado de gestión del riesgo en Colombia."

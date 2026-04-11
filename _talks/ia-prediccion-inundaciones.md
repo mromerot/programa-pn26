@@ -2,7 +2,7 @@
 name: Inteligencia artificial para la predicción de inundaciones
 speakers:
   - Felipe Restrepo Arias
-track: Ciencia y Tecnología
+track: Dialogos de alto nivel
 tags:
   - IA
   - Machine learning

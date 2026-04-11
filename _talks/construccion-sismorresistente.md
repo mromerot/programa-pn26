@@ -3,7 +3,7 @@ name: Construcción sismorresistente en contextos de autoconstrucción
 speakers:
   - Eduardo Herrera Llano
   - Marcela Sánchez Duque
-track: Reducción del Riesgo
+track: Dialogos de alto nivel
 tags:
   - Construcción
   - Sismicidad

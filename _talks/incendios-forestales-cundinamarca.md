@@ -2,7 +2,7 @@
 name: Reducción de riesgo de incendios forestales en Cundinamarca
 speakers:
   - Hernando Garavito Silva
-track: Reducción del Riesgo
+track: Sesión temática
 tags:
   - Incendios forestales
   - Cundinamarca

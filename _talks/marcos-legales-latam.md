@@ -2,7 +2,7 @@
 name: Marcos legales para la gestión del riesgo en América Latina
 speakers:
   - Sandra Lucía Gómez
-track: Gobernanza
+track: Plenaria
 tags:
   - Legislación
   - América Latina

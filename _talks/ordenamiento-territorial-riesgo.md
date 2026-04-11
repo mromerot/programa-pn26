@@ -2,7 +2,7 @@
 name: Ordenamiento territorial y reducción del riesgo de desastres
 speakers:
   - Jorge Iván Salamanca
-track: Reducción del Riesgo
+track: Laboratorio de aprendizaje
 tags:
   - Ordenamiento territorial
   - POT

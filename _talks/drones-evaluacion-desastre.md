@@ -3,7 +3,7 @@ name: Drones y sensores remotos en evaluación post-desastre
 speakers:
   - Roberto Arango Mejía
   - Felipe Restrepo Arias
-track: Ciencia y Tecnología
+track: Sesión temática
 tags:
   - Drones
   - Evaluación

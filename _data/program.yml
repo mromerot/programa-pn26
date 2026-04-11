@@ -3,219 +3,324 @@ days:
     abbr: Mié
     date: 2026-05-20
     rooms:
-      - name: Sala Nevado del Ruiz
+      - name: "Resiliencia (Sala 1)"
         talks:
           - name: Evaluación de amenaza sísmica en zonas urbanas de Colombia
-            time_start: "08:00"
-            time_end: "08:45"
+            time_start: "07:30"
+            time_end: "08:15"
           - name: Cartografía de susceptibilidad a movimientos en masa
-            time_start: "08:45"
-            time_end: "09:30"
+            time_start: "08:15"
+            time_end: "09:00"
           - name: Modelación de inundaciones fluviales en cuencas andinas
-            time_start: "09:45"
-            time_end: "10:30"
+            time_start: "09:15"
+            time_end: "10:00"
           - name: Inventario nacional de pérdidas por desastres 2000-2024
-            time_start: "10:30"
-            time_end: "11:15"
+            time_start: "10:00"
+            time_end: "10:45"
           - name: Caracterización de amenazas volcánicas en el Eje Cafetero
-            time_start: "11:15"
-            time_end: "12:00"
+            time_start: "10:45"
+            time_end: "11:30"
           - name: Zonificación de amenaza por lahares en el volcán Nevado del Ruiz
             time_start: "14:00"
             time_end: "14:45"
           - name: Evaluación probabilista del riesgo de inundación costera
             time_start: "14:45"
             time_end: "15:30"
+          - name: "Redes de monitoreo sísmico en Colombia: avances y retos"
+            time_start: "15:45"
+            time_end: "16:30"
+          - name: Teledetección aplicada a la identificación de amenazas
+            time_start: "16:30"
+            time_end: "17:15"
+          - name: Exposición y vulnerabilidad en municipios de alta montaña
+            time_start: "17:30"
+            time_end: "18:15"
+          - name: Percepción del riesgo sísmico en comunidades urbanas
+            time_start: "18:15"
+            time_end: "19:00"
 
-      - name: Sala Galeras
+      - name: "Participación (Sala 2)"
         talks:
           - name: Análisis de vulnerabilidad estructural en viviendas rurales
-            time_start: "08:00"
-            time_end: "08:45"
+            time_start: "07:30"
+            time_end: "08:15"
           - name: Exposición y vulnerabilidad en municipios de alta montaña
-            time_start: "08:45"
-            time_end: "09:30"
+            time_start: "08:15"
+            time_end: "09:00"
           - name: Percepción del riesgo sísmico en comunidades urbanas
-            time_start: "09:45"
-            time_end: "10:30"
+            time_start: "09:15"
+            time_end: "10:00"
           - name: Construcción sismorresistente en contextos de autoconstrucción
-            time_start: "10:30"
-            time_end: "11:15"
+            time_start: "10:00"
+            time_end: "10:45"
           - name: Reforzamiento estructural de edificaciones escolares
-            time_start: "11:15"
-            time_end: "12:00"
+            time_start: "10:45"
+            time_end: "11:30"
           - name: Ordenamiento territorial y reducción del riesgo de desastres
             time_start: "14:00"
             time_end: "14:45"
           - name: Reasentamiento de comunidades en zonas de alto riesgo
             time_start: "14:45"
             time_end: "15:30"
+          - name: Soluciones basadas en la naturaleza para reducción de riesgo
+            time_start: "15:45"
+            time_end: "16:30"
+          - name: Protección de ecosistemas como medida de reducción del riesgo
+            time_start: "16:30"
+            time_end: "17:15"
+          - name: Jardines de lluvia y drenaje urbano sostenible
+            time_start: "17:30"
+            time_end: "18:15"
+          - name: Reducción de riesgo de incendios forestales en Cundinamarca
+            time_start: "18:15"
+            time_end: "19:00"
 
-      - name: Sala Machín
+      - name: "Solidaridad (Sala 3)"
         talks:
           - name: Sistemas de alerta temprana para crecientes súbitas
-            time_start: "08:00"
-            time_end: "08:45"
+            time_start: "07:30"
+            time_end: "08:15"
           - name: Protocolos de evacuación ante amenaza volcánica
-            time_start: "08:45"
-            time_end: "09:30"
+            time_start: "08:15"
+            time_end: "09:00"
           - name: Coordinación interinstitucional en respuesta a emergencias
-            time_start: "09:45"
-            time_end: "10:30"
+            time_start: "09:15"
+            time_end: "10:00"
           - name: Atención psicosocial en fases de respuesta y recuperación
-            time_start: "10:30"
-            time_end: "11:15"
+            time_start: "10:00"
+            time_end: "10:45"
           - name: Logística humanitaria en zonas de difícil acceso
-            time_start: "11:15"
-            time_end: "12:00"
+            time_start: "10:45"
+            time_end: "11:30"
           - name: Evaluación de daños y análisis de necesidades (EDAN)
             time_start: "14:00"
             time_end: "14:45"
           - name: Comunicación de riesgo en situaciones de crisis
             time_start: "14:45"
             time_end: "15:30"
+          - name: Gestión de albergues temporales en emergencias masivas
+            time_start: "15:45"
+            time_end: "16:30"
+          - name: Simulacros y ejercicios de preparación comunitaria
+            time_start: "16:30"
+            time_end: "17:15"
+          - name: Recuperación temprana y medios de vida post-desastre
+            time_start: "17:30"
+            time_end: "18:15"
+          - name: Coordinación entre niveles de gobierno en emergencias
+            time_start: "18:15"
+            time_end: "19:00"
 
-      - name: Sala Sotará
+      - name: "Cimientos (Sala 4)"
         talks:
           - name: Marcos legales para la gestión del riesgo en América Latina
-            time_start: "08:00"
-            time_end: "08:45"
+            time_start: "07:30"
+            time_end: "08:15"
           - name: Financiamiento público del riesgo de desastres en Colombia
-            time_start: "08:45"
-            time_end: "09:30"
+            time_start: "08:15"
+            time_end: "09:00"
           - name: El papel de los gobiernos locales en la GRD
-            time_start: "09:45"
-            time_end: "10:30"
+            time_start: "09:15"
+            time_end: "10:00"
           - name: Acuerdos internacionales y el Marco de Sendai en Colombia
-            time_start: "10:30"
-            time_end: "11:15"
+            time_start: "10:00"
+            time_end: "10:45"
           - name: Rendición de cuentas y transparencia en la GRD
-            time_start: "11:15"
-            time_end: "12:00"
+            time_start: "10:45"
+            time_end: "11:30"
           - name: Género y enfoque diferencial en la gestión del riesgo
             time_start: "14:00"
             time_end: "14:45"
           - name: Gestión del riesgo en el posconflicto colombiano
             time_start: "14:45"
             time_end: "15:30"
+          - name: Políticas públicas de reducción del riesgo en contextos urbanos
+            time_start: "15:45"
+            time_end: "16:30"
+          - name: Participación comunitaria en la planificación del riesgo
+            time_start: "16:30"
+            time_end: "17:15"
+          - name: Integración del riesgo en planes de desarrollo municipal
+            time_start: "17:30"
+            time_end: "18:15"
+          - name: Gestión comunitaria del riesgo en el Pacífico colombiano
+            time_start: "18:15"
+            time_end: "19:00"
 
-      - name: Sala Huila
+      - name: "Gobernanza (Sala VIP)"
         talks:
           - name: "Redes de monitoreo sísmico en Colombia: avances y retos"
-            time_start: "08:00"
-            time_end: "08:45"
+            time_start: "07:30"
+            time_end: "08:15"
           - name: Teledetección aplicada a la identificación de amenazas
-            time_start: "08:45"
-            time_end: "09:30"
+            time_start: "08:15"
+            time_end: "09:00"
           - name: Inteligencia artificial para la predicción de inundaciones
-            time_start: "09:45"
-            time_end: "10:30"
+            time_start: "09:15"
+            time_end: "10:00"
           - name: Sistemas de información geográfica para la GRD
-            time_start: "10:30"
-            time_end: "11:15"
+            time_start: "10:00"
+            time_end: "10:45"
           - name: Modelación numérica de flujos de lodo volcánico
-            time_start: "11:15"
-            time_end: "12:00"
+            time_start: "10:45"
+            time_end: "11:30"
           - name: Plataformas de datos abiertos para la gestión del riesgo
             time_start: "14:00"
             time_end: "14:45"
           - name: Gemelos digitales de ciudades para planificación del riesgo
             time_start: "14:45"
             time_end: "15:30"
+          - name: Internet de las Cosas (IoT) en alerta temprana comunitaria
+            time_start: "15:45"
+            time_end: "16:30"
+          - name: Drones y sensores remotos en evaluación post-desastre
+            time_start: "16:30"
+            time_end: "17:15"
+          - name: Aprendizaje automático en la evaluación de vulnerabilidad
+            time_start: "17:30"
+            time_end: "18:15"
+          - name: Modelación de inundaciones fluviales en cuencas andinas
+            time_start: "18:15"
+            time_end: "19:00"
 
-      - name: Sala Cumbal
+      - name: "Entretejidos (Mezzanine)"
         talks:
-          - name: Ecosistemas como medida de reducción del riesgo
-            time_start: "08:00"
-            time_end: "08:45"
+          - name: Protección de ecosistemas como medida de reducción del riesgo
+            time_start: "07:30"
+            time_end: "08:15"
           - name: Reducción de riesgo de incendios forestales en Cundinamarca
-            time_start: "08:45"
-            time_end: "09:30"
+            time_start: "08:15"
+            time_end: "09:00"
           - name: Soluciones basadas en la naturaleza para reducción de riesgo
-            time_start: "09:45"
-            time_end: "10:30"
+            time_start: "09:15"
+            time_end: "10:00"
           - name: Jardines de lluvia y drenaje urbano sostenible
-            time_start: "10:30"
-            time_end: "11:15"
+            time_start: "10:00"
+            time_end: "10:45"
           - name: Gestión comunitaria del riesgo en el Pacífico colombiano
-            time_start: "11:15"
-            time_end: "12:00"
+            time_start: "10:45"
+            time_end: "11:30"
           - name: Integración del riesgo en planes de desarrollo municipal
             time_start: "14:00"
             time_end: "14:45"
           - name: Participación comunitaria en la planificación del riesgo
             time_start: "14:45"
             time_end: "15:30"
+          - name: Género y enfoque diferencial en la gestión del riesgo
+            time_start: "15:45"
+            time_end: "16:30"
+          - name: Gestión del riesgo en el posconflicto colombiano
+            time_start: "16:30"
+            time_end: "17:15"
+          - name: El papel de los gobiernos locales en la GRD
+            time_start: "17:30"
+            time_end: "18:15"
+          - name: Reasentamiento de comunidades en zonas de alto riesgo
+            time_start: "18:15"
+            time_end: "19:00"
 
-      - name: Sala Chiles
+      - name: "Horizonte (Capilla)"
         talks:
           - name: Drones y sensores remotos en evaluación post-desastre
-            time_start: "08:00"
-            time_end: "08:45"
+            time_start: "07:30"
+            time_end: "08:15"
           - name: Internet de las Cosas (IoT) en alerta temprana comunitaria
-            time_start: "08:45"
-            time_end: "09:30"
+            time_start: "08:15"
+            time_end: "09:00"
           - name: Aprendizaje automático en la evaluación de vulnerabilidad
-            time_start: "09:45"
-            time_end: "10:30"
+            time_start: "09:15"
+            time_end: "10:00"
           - name: Simulacros y ejercicios de preparación comunitaria
-            time_start: "10:30"
-            time_end: "11:15"
+            time_start: "10:00"
+            time_end: "10:45"
           - name: Recuperación temprana y medios de vida post-desastre
-            time_start: "11:15"
-            time_end: "12:00"
+            time_start: "10:45"
+            time_end: "11:30"
           - name: Gestión de albergues temporales en emergencias masivas
             time_start: "14:00"
             time_end: "14:45"
           - name: Coordinación entre niveles de gobierno en emergencias
             time_start: "14:45"
             time_end: "15:30"
+          - name: Comunicación de riesgo en situaciones de crisis
+            time_start: "15:45"
+            time_end: "16:30"
+          - name: Evaluación de daños y análisis de necesidades (EDAN)
+            time_start: "16:30"
+            time_end: "17:15"
+          - name: Logística humanitaria en zonas de difícil acceso
+            time_start: "17:30"
+            time_end: "18:15"
+          - name: Atención psicosocial en fases de respuesta y recuperación
+            time_start: "18:15"
+            time_end: "19:00"
 
-      - name: Sala Puracé
+      - name: "Sinergia (Sala Piso 2)"
         talks:
           - name: Políticas públicas de reducción del riesgo en contextos urbanos
-            time_start: "08:00"
-            time_end: "08:45"
+            time_start: "07:30"
+            time_end: "08:15"
           - name: Percepción del riesgo sísmico en comunidades urbanas
-            time_start: "08:45"
-            time_end: "09:30"
+            time_start: "08:15"
+            time_end: "09:00"
           - name: Gestión comunitaria del riesgo en el Pacífico colombiano
-            time_start: "09:45"
-            time_end: "10:30"
+            time_start: "09:15"
+            time_end: "10:00"
           - name: Atención psicosocial en fases de respuesta y recuperación
-            time_start: "10:30"
-            time_end: "11:15"
+            time_start: "10:00"
+            time_end: "10:45"
           - name: Evaluación de daños y análisis de necesidades (EDAN)
-            time_start: "11:15"
-            time_end: "12:00"
+            time_start: "10:45"
+            time_end: "11:30"
           - name: Comunicación de riesgo en situaciones de crisis
             time_start: "14:00"
             time_end: "14:45"
           - name: Participación comunitaria en la planificación del riesgo
             time_start: "14:45"
             time_end: "15:30"
+          - name: Financiamiento público del riesgo de desastres en Colombia
+            time_start: "15:45"
+            time_end: "16:30"
+          - name: Marcos legales para la gestión del riesgo en América Latina
+            time_start: "16:30"
+            time_end: "17:15"
+          - name: Rendición de cuentas y transparencia en la GRD
+            time_start: "17:30"
+            time_end: "18:15"
+          - name: Coordinación interinstitucional en respuesta a emergencias
+            time_start: "18:15"
+            time_end: "19:00"
+
+      - name: "Auditorio Principal"
+        talks:
+          - name: "Apertura institucional: Plataforma Nacional 2026"
+            time_start: "09:00"
+            time_end: "10:00"
+          - name: "Diálogo de alto nivel: cooperación internacional en GRD"
+            time_start: "14:00"
+            time_end: "15:00"
 
   - name: Jueves
     abbr: Jue
     date: 2026-05-21
     rooms:
-      - name: Sala Nevado del Ruiz
+      - name: "Resiliencia (Sala 1)"
         talks:
           - name: Zonificación de amenaza por lahares en el volcán Nevado del Ruiz
-            time_start: "08:00"
-            time_end: "08:45"
+            time_start: "07:30"
+            time_end: "08:15"
           - name: Modelación numérica de flujos de lodo volcánico
-            time_start: "08:45"
-            time_end: "09:30"
+            time_start: "08:15"
+            time_end: "09:00"
           - name: "Redes de monitoreo sísmico en Colombia: avances y retos"
-            time_start: "09:45"
-            time_end: "10:30"
+            time_start: "09:15"
+            time_end: "10:00"
           - name: Evaluación de amenaza sísmica en zonas urbanas de Colombia
-            time_start: "10:30"
-            time_end: "11:15"
+            time_start: "10:00"
+            time_end: "10:45"
           - name: Cartografía de susceptibilidad a movimientos en masa
-            time_start: "11:15"
-            time_end: "12:00"
+            time_start: "10:45"
+            time_end: "11:30"
           - name: Exposición y vulnerabilidad en municipios de alta montaña
             time_start: "14:00"
             time_end: "14:45"
@@ -225,24 +330,33 @@ days:
           - name: Teledetección aplicada a la identificación de amenazas
             time_start: "15:45"
             time_end: "16:30"
+          - name: Caracterización de amenazas volcánicas en el Eje Cafetero
+            time_start: "16:30"
+            time_end: "17:15"
+          - name: Evaluación probabilista del riesgo de inundación costera
+            time_start: "17:30"
+            time_end: "18:15"
+          - name: Sistemas de información geográfica para la GRD
+            time_start: "18:15"
+            time_end: "19:00"
 
-      - name: Sala Galeras
+      - name: "Participación (Sala 2)"
         talks:
           - name: Acuerdos internacionales y el Marco de Sendai en Colombia
-            time_start: "08:00"
-            time_end: "08:45"
+            time_start: "07:30"
+            time_end: "08:15"
           - name: Marcos legales para la gestión del riesgo en América Latina
-            time_start: "08:45"
-            time_end: "09:30"
+            time_start: "08:15"
+            time_end: "09:00"
           - name: Financiamiento público del riesgo de desastres en Colombia
-            time_start: "09:45"
-            time_end: "10:30"
+            time_start: "09:15"
+            time_end: "10:00"
           - name: Rendición de cuentas y transparencia en la GRD
-            time_start: "10:30"
-            time_end: "11:15"
+            time_start: "10:00"
+            time_end: "10:45"
           - name: Coordinación entre niveles de gobierno en emergencias
-            time_start: "11:15"
-            time_end: "12:00"
+            time_start: "10:45"
+            time_end: "11:30"
           - name: Gestión del riesgo en el posconflicto colombiano
             time_start: "14:00"
             time_end: "14:45"
@@ -252,24 +366,33 @@ days:
           - name: El papel de los gobiernos locales en la GRD
             time_start: "15:45"
             time_end: "16:30"
+          - name: Género y enfoque diferencial en la gestión del riesgo
+            time_start: "16:30"
+            time_end: "17:15"
+          - name: Participación comunitaria en la planificación del riesgo
+            time_start: "17:30"
+            time_end: "18:15"
+          - name: Gestión comunitaria del riesgo en el Pacífico colombiano
+            time_start: "18:15"
+            time_end: "19:00"
 
-      - name: Sala Machín
+      - name: "Solidaridad (Sala 3)"
         talks:
           - name: Sistemas de alerta temprana para crecientes súbitas
-            time_start: "08:00"
-            time_end: "08:45"
+            time_start: "07:30"
+            time_end: "08:15"
           - name: Internet de las Cosas (IoT) en alerta temprana comunitaria
-            time_start: "08:45"
-            time_end: "09:30"
+            time_start: "08:15"
+            time_end: "09:00"
           - name: Inteligencia artificial para la predicción de inundaciones
-            time_start: "09:45"
-            time_end: "10:30"
+            time_start: "09:15"
+            time_end: "10:00"
           - name: Gemelos digitales de ciudades para planificación del riesgo
-            time_start: "10:30"
-            time_end: "11:15"
+            time_start: "10:00"
+            time_end: "10:45"
           - name: Aprendizaje automático en la evaluación de vulnerabilidad
-            time_start: "11:15"
-            time_end: "12:00"
+            time_start: "10:45"
+            time_end: "11:30"
           - name: Plataformas de datos abiertos para la gestión del riesgo
             time_start: "14:00"
             time_end: "14:45"
@@ -279,25 +402,34 @@ days:
           - name: Sistemas de información geográfica para la GRD
             time_start: "15:45"
             time_end: "16:30"
+          - name: "Redes de monitoreo sísmico en Colombia: avances y retos"
+            time_start: "16:30"
+            time_end: "17:15"
+          - name: Teledetección aplicada a la identificación de amenazas
+            time_start: "17:30"
+            time_end: "18:15"
+          - name: Modelación de inundaciones fluviales en cuencas andinas
+            time_start: "18:15"
+            time_end: "19:00"
 
-      - name: Sala Sotará
+      - name: "Cimientos (Sala 4)"
         talks:
           - name: Construcción sismorresistente en contextos de autoconstrucción
-            time_start: "08:00"
-            time_end: "08:45"
+            time_start: "07:30"
+            time_end: "08:15"
           - name: Reforzamiento estructural de edificaciones escolares
-            time_start: "08:45"
-            time_end: "09:30"
+            time_start: "08:15"
+            time_end: "09:00"
           - name: Reasentamiento de comunidades en zonas de alto riesgo
-            time_start: "09:45"
-            time_end: "10:30"
+            time_start: "09:15"
+            time_end: "10:00"
           - name: Ordenamiento territorial y reducción del riesgo de desastres
-            time_start: "10:30"
-            time_end: "11:15"
+            time_start: "10:00"
+            time_end: "10:45"
           - name: Análisis de vulnerabilidad estructural en viviendas rurales
-            time_start: "11:15"
-            time_end: "12:00"
-          - name: Ecosistemas como medida de reducción del riesgo
+            time_start: "10:45"
+            time_end: "11:30"
+          - name: Protección de ecosistemas como medida de reducción del riesgo
             time_start: "14:00"
             time_end: "14:45"
           - name: Soluciones basadas en la naturaleza para reducción de riesgo
@@ -306,24 +438,33 @@ days:
           - name: Jardines de lluvia y drenaje urbano sostenible
             time_start: "15:45"
             time_end: "16:30"
+          - name: Reducción de riesgo de incendios forestales en Cundinamarca
+            time_start: "16:30"
+            time_end: "17:15"
+          - name: Integración del riesgo en planes de desarrollo municipal
+            time_start: "17:30"
+            time_end: "18:15"
+          - name: Evaluación probabilista del riesgo de inundación costera
+            time_start: "18:15"
+            time_end: "19:00"
 
-      - name: Sala Huila
+      - name: "Gobernanza (Sala VIP)"
         talks:
           - name: Protocolos de evacuación ante amenaza volcánica
-            time_start: "08:00"
-            time_end: "08:45"
+            time_start: "07:30"
+            time_end: "08:15"
           - name: Coordinación interinstitucional en respuesta a emergencias
-            time_start: "08:45"
-            time_end: "09:30"
+            time_start: "08:15"
+            time_end: "09:00"
           - name: Logística humanitaria en zonas de difícil acceso
-            time_start: "09:45"
-            time_end: "10:30"
+            time_start: "09:15"
+            time_end: "10:00"
           - name: Gestión de albergues temporales en emergencias masivas
-            time_start: "10:30"
-            time_end: "11:15"
+            time_start: "10:00"
+            time_end: "10:45"
           - name: Recuperación temprana y medios de vida post-desastre
-            time_start: "11:15"
-            time_end: "12:00"
+            time_start: "10:45"
+            time_end: "11:30"
           - name: Simulacros y ejercicios de preparación comunitaria
             time_start: "14:00"
             time_end: "14:45"
@@ -333,24 +474,33 @@ days:
           - name: Comunicación de riesgo en situaciones de crisis
             time_start: "15:45"
             time_end: "16:30"
+          - name: Atención psicosocial en fases de respuesta y recuperación
+            time_start: "16:30"
+            time_end: "17:15"
+          - name: Coordinación entre niveles de gobierno en emergencias
+            time_start: "17:30"
+            time_end: "18:15"
+          - name: Sistemas de alerta temprana para crecientes súbitas
+            time_start: "18:15"
+            time_end: "19:00"
 
-      - name: Sala Cumbal
+      - name: "Entretejidos (Mezzanine)"
         talks:
           - name: Género y enfoque diferencial en la gestión del riesgo
-            time_start: "08:00"
-            time_end: "08:45"
+            time_start: "07:30"
+            time_end: "08:15"
           - name: Participación comunitaria en la planificación del riesgo
-            time_start: "08:45"
-            time_end: "09:30"
+            time_start: "08:15"
+            time_end: "09:00"
           - name: Gestión comunitaria del riesgo en el Pacífico colombiano
-            time_start: "09:45"
-            time_end: "10:30"
+            time_start: "09:15"
+            time_end: "10:00"
           - name: Integración del riesgo en planes de desarrollo municipal
-            time_start: "10:30"
-            time_end: "11:15"
+            time_start: "10:00"
+            time_end: "10:45"
           - name: Reducción de riesgo de incendios forestales en Cundinamarca
-            time_start: "11:15"
-            time_end: "12:00"
+            time_start: "10:45"
+            time_end: "11:30"
           - name: Percepción del riesgo sísmico en comunidades urbanas
             time_start: "14:00"
             time_end: "14:45"
@@ -360,24 +510,33 @@ days:
           - name: Gestión del riesgo en el posconflicto colombiano
             time_start: "15:45"
             time_end: "16:30"
+          - name: Financiamiento público del riesgo de desastres en Colombia
+            time_start: "16:30"
+            time_end: "17:15"
+          - name: Acuerdos internacionales y el Marco de Sendai en Colombia
+            time_start: "17:30"
+            time_end: "18:15"
+          - name: Políticas públicas de reducción del riesgo en contextos urbanos
+            time_start: "18:15"
+            time_end: "19:00"
 
-      - name: Sala Chiles
+      - name: "Horizonte (Capilla)"
         talks:
           - name: Caracterización de amenazas volcánicas en el Eje Cafetero
-            time_start: "08:00"
-            time_end: "08:45"
+            time_start: "07:30"
+            time_end: "08:15"
           - name: Evaluación probabilista del riesgo de inundación costera
-            time_start: "08:45"
-            time_end: "09:30"
+            time_start: "08:15"
+            time_end: "09:00"
           - name: Modelación de inundaciones fluviales en cuencas andinas
-            time_start: "09:45"
-            time_end: "10:30"
-          - name: Ecosistemas como medida de reducción del riesgo
-            time_start: "10:30"
-            time_end: "11:15"
+            time_start: "09:15"
+            time_end: "10:00"
+          - name: Protección de ecosistemas como medida de reducción del riesgo
+            time_start: "10:00"
+            time_end: "10:45"
           - name: Gestión comunitaria del riesgo en el Pacífico colombiano
-            time_start: "11:15"
-            time_end: "12:00"
+            time_start: "10:45"
+            time_end: "11:30"
           - name: Sistemas de alerta temprana para crecientes súbitas
             time_start: "14:00"
             time_end: "14:45"
@@ -387,24 +546,33 @@ days:
           - name: Zonificación de amenaza por lahares en el volcán Nevado del Ruiz
             time_start: "15:45"
             time_end: "16:30"
+          - name: Inventario nacional de pérdidas por desastres 2000-2024
+            time_start: "16:30"
+            time_end: "17:15"
+          - name: Análisis de vulnerabilidad estructural en viviendas rurales
+            time_start: "17:30"
+            time_end: "18:15"
+          - name: Modelación numérica de flujos de lodo volcánico
+            time_start: "18:15"
+            time_end: "19:00"
 
-      - name: Sala Puracé
+      - name: "Sinergia (Sala Piso 2)"
         talks:
           - name: Aprendizaje automático en la evaluación de vulnerabilidad
-            time_start: "08:00"
-            time_end: "08:45"
+            time_start: "07:30"
+            time_end: "08:15"
           - name: Drones y sensores remotos en evaluación post-desastre
-            time_start: "08:45"
-            time_end: "09:30"
+            time_start: "08:15"
+            time_end: "09:00"
           - name: "Redes de monitoreo sísmico en Colombia: avances y retos"
-            time_start: "09:45"
-            time_end: "10:30"
+            time_start: "09:15"
+            time_end: "10:00"
           - name: Plataformas de datos abiertos para la gestión del riesgo
-            time_start: "10:30"
-            time_end: "11:15"
+            time_start: "10:00"
+            time_end: "10:45"
           - name: Internet de las Cosas (IoT) en alerta temprana comunitaria
-            time_start: "11:15"
-            time_end: "12:00"
+            time_start: "10:45"
+            time_end: "11:30"
           - name: Teledetección aplicada a la identificación de amenazas
             time_start: "14:00"
             time_end: "14:45"
@@ -414,175 +582,319 @@ days:
           - name: Gemelos digitales de ciudades para planificación del riesgo
             time_start: "15:45"
             time_end: "16:30"
+          - name: Ordenamiento territorial y reducción del riesgo de desastres
+            time_start: "16:30"
+            time_end: "17:15"
+          - name: Cartografía de susceptibilidad a movimientos en masa
+            time_start: "17:30"
+            time_end: "18:15"
+          - name: Evaluación de amenaza sísmica en zonas urbanas de Colombia
+            time_start: "18:15"
+            time_end: "19:00"
+
+      - name: "Auditorio Principal"
+        talks:
+          - name: "Panel plenario: tecnología e innovación en gestión del riesgo"
+            time_start: "09:00"
+            time_end: "10:00"
+          - name: "Diálogo de financiamiento: inversión para la resiliencia"
+            time_start: "14:00"
+            time_end: "15:00"
 
   - name: Viernes
     abbr: Vie
     date: 2026-05-22
     rooms:
-      - name: Sala Nevado del Ruiz
+      - name: "Resiliencia (Sala 1)"
         talks:
           - name: Gestión del riesgo en el posconflicto colombiano
-            time_start: "08:00"
-            time_end: "08:45"
+            time_start: "07:30"
+            time_end: "08:15"
           - name: Políticas públicas de reducción del riesgo en contextos urbanos
-            time_start: "08:45"
-            time_end: "09:30"
+            time_start: "08:15"
+            time_end: "09:00"
           - name: Género y enfoque diferencial en la gestión del riesgo
-            time_start: "09:45"
-            time_end: "10:30"
+            time_start: "09:15"
+            time_end: "10:00"
           - name: Participación comunitaria en la planificación del riesgo
-            time_start: "10:30"
-            time_end: "11:15"
+            time_start: "10:00"
+            time_end: "10:45"
           - name: Coordinación entre niveles de gobierno en emergencias
-            time_start: "11:15"
-            time_end: "12:00"
+            time_start: "10:45"
+            time_end: "11:30"
           - name: Rendición de cuentas y transparencia en la GRD
             time_start: "14:00"
             time_end: "14:45"
+          - name: Acuerdos internacionales y el Marco de Sendai en Colombia
+            time_start: "14:45"
+            time_end: "15:30"
+          - name: El papel de los gobiernos locales en la GRD
+            time_start: "15:45"
+            time_end: "16:30"
+          - name: Financiamiento público del riesgo de desastres en Colombia
+            time_start: "16:30"
+            time_end: "17:15"
+          - name: Marcos legales para la gestión del riesgo en América Latina
+            time_start: "17:30"
+            time_end: "18:15"
+          - name: Integración del riesgo en planes de desarrollo municipal
+            time_start: "18:15"
+            time_end: "19:00"
 
-      - name: Sala Galeras
+      - name: "Participación (Sala 2)"
         talks:
           - name: Evaluación probabilista del riesgo de inundación costera
-            time_start: "08:00"
-            time_end: "08:45"
+            time_start: "07:30"
+            time_end: "08:15"
           - name: Cartografía de susceptibilidad a movimientos en masa
-            time_start: "08:45"
-            time_end: "09:30"
+            time_start: "08:15"
+            time_end: "09:00"
           - name: Zonificación de amenaza por lahares en el volcán Nevado del Ruiz
-            time_start: "09:45"
-            time_end: "10:30"
+            time_start: "09:15"
+            time_end: "10:00"
           - name: Caracterización de amenazas volcánicas en el Eje Cafetero
-            time_start: "10:30"
-            time_end: "11:15"
+            time_start: "10:00"
+            time_end: "10:45"
           - name: "Redes de monitoreo sísmico en Colombia: avances y retos"
-            time_start: "11:15"
-            time_end: "12:00"
+            time_start: "10:45"
+            time_end: "11:30"
           - name: Modelación numérica de flujos de lodo volcánico
             time_start: "14:00"
             time_end: "14:45"
+          - name: Inventario nacional de pérdidas por desastres 2000-2024
+            time_start: "14:45"
+            time_end: "15:30"
+          - name: Teledetección aplicada a la identificación de amenazas
+            time_start: "15:45"
+            time_end: "16:30"
+          - name: Evaluación de amenaza sísmica en zonas urbanas de Colombia
+            time_start: "16:30"
+            time_end: "17:15"
+          - name: Modelación de inundaciones fluviales en cuencas andinas
+            time_start: "17:30"
+            time_end: "18:15"
+          - name: Exposición y vulnerabilidad en municipios de alta montaña
+            time_start: "18:15"
+            time_end: "19:00"
 
-      - name: Sala Machín
+      - name: "Solidaridad (Sala 3)"
         talks:
           - name: Recuperación temprana y medios de vida post-desastre
-            time_start: "08:00"
-            time_end: "08:45"
+            time_start: "07:30"
+            time_end: "08:15"
           - name: Gestión de albergues temporales en emergencias masivas
-            time_start: "08:45"
-            time_end: "09:30"
+            time_start: "08:15"
+            time_end: "09:00"
           - name: Simulacros y ejercicios de preparación comunitaria
-            time_start: "09:45"
-            time_end: "10:30"
+            time_start: "09:15"
+            time_end: "10:00"
           - name: Coordinación interinstitucional en respuesta a emergencias
-            time_start: "10:30"
-            time_end: "11:15"
+            time_start: "10:00"
+            time_end: "10:45"
           - name: Logística humanitaria en zonas de difícil acceso
-            time_start: "11:15"
-            time_end: "12:00"
+            time_start: "10:45"
+            time_end: "11:30"
           - name: Atención psicosocial en fases de respuesta y recuperación
             time_start: "14:00"
             time_end: "14:45"
+          - name: Comunicación de riesgo en situaciones de crisis
+            time_start: "14:45"
+            time_end: "15:30"
+          - name: Protocolos de evacuación ante amenaza volcánica
+            time_start: "15:45"
+            time_end: "16:30"
+          - name: Evaluación de daños y análisis de necesidades (EDAN)
+            time_start: "16:30"
+            time_end: "17:15"
+          - name: Sistemas de alerta temprana para crecientes súbitas
+            time_start: "17:30"
+            time_end: "18:15"
+          - name: Coordinación entre niveles de gobierno en emergencias
+            time_start: "18:15"
+            time_end: "19:00"
 
-      - name: Sala Sotará
+      - name: "Cimientos (Sala 4)"
         talks:
           - name: Soluciones basadas en la naturaleza para reducción de riesgo
-            time_start: "08:00"
-            time_end: "08:45"
+            time_start: "07:30"
+            time_end: "08:15"
           - name: Jardines de lluvia y drenaje urbano sostenible
-            time_start: "08:45"
-            time_end: "09:30"
+            time_start: "08:15"
+            time_end: "09:00"
           - name: Reducción de riesgo de incendios forestales en Cundinamarca
-            time_start: "09:45"
-            time_end: "10:30"
-          - name: Ecosistemas como medida de reducción del riesgo
-            time_start: "10:30"
-            time_end: "11:15"
+            time_start: "09:15"
+            time_end: "10:00"
+          - name: Protección de ecosistemas como medida de reducción del riesgo
+            time_start: "10:00"
+            time_end: "10:45"
           - name: Integración del riesgo en planes de desarrollo municipal
-            time_start: "11:15"
-            time_end: "12:00"
+            time_start: "10:45"
+            time_end: "11:30"
           - name: Gestión comunitaria del riesgo en el Pacífico colombiano
             time_start: "14:00"
             time_end: "14:45"
+          - name: Participación comunitaria en la planificación del riesgo
+            time_start: "14:45"
+            time_end: "15:30"
+          - name: Reasentamiento de comunidades en zonas de alto riesgo
+            time_start: "15:45"
+            time_end: "16:30"
+          - name: Análisis de vulnerabilidad estructural en viviendas rurales
+            time_start: "16:30"
+            time_end: "17:15"
+          - name: Ordenamiento territorial y reducción del riesgo de desastres
+            time_start: "17:30"
+            time_end: "18:15"
+          - name: Reforzamiento estructural de edificaciones escolares
+            time_start: "18:15"
+            time_end: "19:00"
 
-      - name: Sala Huila
+      - name: "Gobernanza (Sala VIP)"
         talks:
           - name: Aprendizaje automático en la evaluación de vulnerabilidad
-            time_start: "08:00"
-            time_end: "08:45"
+            time_start: "07:30"
+            time_end: "08:15"
           - name: Gemelos digitales de ciudades para planificación del riesgo
-            time_start: "08:45"
-            time_end: "09:30"
+            time_start: "08:15"
+            time_end: "09:00"
           - name: Internet de las Cosas (IoT) en alerta temprana comunitaria
-            time_start: "09:45"
-            time_end: "10:30"
+            time_start: "09:15"
+            time_end: "10:00"
           - name: Drones y sensores remotos en evaluación post-desastre
-            time_start: "10:30"
-            time_end: "11:15"
+            time_start: "10:00"
+            time_end: "10:45"
           - name: Sistemas de información geográfica para la GRD
-            time_start: "11:15"
-            time_end: "12:00"
+            time_start: "10:45"
+            time_end: "11:30"
           - name: Plataformas de datos abiertos para la gestión del riesgo
             time_start: "14:00"
             time_end: "14:45"
+          - name: Teledetección aplicada a la identificación de amenazas
+            time_start: "14:45"
+            time_end: "15:30"
+          - name: "Redes de monitoreo sísmico en Colombia: avances y retos"
+            time_start: "15:45"
+            time_end: "16:30"
+          - name: Inteligencia artificial para la predicción de inundaciones
+            time_start: "16:30"
+            time_end: "17:15"
+          - name: Modelación numérica de flujos de lodo volcánico
+            time_start: "17:30"
+            time_end: "18:15"
+          - name: Cartografía de susceptibilidad a movimientos en masa
+            time_start: "18:15"
+            time_end: "19:00"
 
-      - name: Sala Cumbal
+      - name: "Entretejidos (Mezzanine)"
         talks:
           - name: Construcción sismorresistente en contextos de autoconstrucción
-            time_start: "08:00"
-            time_end: "08:45"
+            time_start: "07:30"
+            time_end: "08:15"
           - name: Reasentamiento de comunidades en zonas de alto riesgo
-            time_start: "08:45"
-            time_end: "09:30"
+            time_start: "08:15"
+            time_end: "09:00"
           - name: Análisis de vulnerabilidad estructural en viviendas rurales
-            time_start: "09:45"
-            time_end: "10:30"
+            time_start: "09:15"
+            time_end: "10:00"
           - name: Reforzamiento estructural de edificaciones escolares
-            time_start: "10:30"
-            time_end: "11:15"
+            time_start: "10:00"
+            time_end: "10:45"
           - name: Ordenamiento territorial y reducción del riesgo de desastres
-            time_start: "11:15"
-            time_end: "12:00"
+            time_start: "10:45"
+            time_end: "11:30"
           - name: Modelación de inundaciones fluviales en cuencas andinas
             time_start: "14:00"
             time_end: "14:45"
+          - name: Protección de ecosistemas como medida de reducción del riesgo
+            time_start: "14:45"
+            time_end: "15:30"
+          - name: Jardines de lluvia y drenaje urbano sostenible
+            time_start: "15:45"
+            time_end: "16:30"
+          - name: Soluciones basadas en la naturaleza para reducción de riesgo
+            time_start: "16:30"
+            time_end: "17:15"
+          - name: Reducción de riesgo de incendios forestales en Cundinamarca
+            time_start: "17:30"
+            time_end: "18:15"
+          - name: Exposición y vulnerabilidad en municipios de alta montaña
+            time_start: "18:15"
+            time_end: "19:00"
 
-      - name: Sala Chiles
+      - name: "Horizonte (Capilla)"
         talks:
           - name: Financiamiento público del riesgo de desastres en Colombia
-            time_start: "08:00"
-            time_end: "08:45"
+            time_start: "07:30"
+            time_end: "08:15"
           - name: Marcos legales para la gestión del riesgo en América Latina
-            time_start: "08:45"
-            time_end: "09:30"
+            time_start: "08:15"
+            time_end: "09:00"
           - name: Acuerdos internacionales y el Marco de Sendai en Colombia
-            time_start: "09:45"
-            time_end: "10:30"
+            time_start: "09:15"
+            time_end: "10:00"
           - name: El papel de los gobiernos locales en la GRD
-            time_start: "10:30"
-            time_end: "11:15"
+            time_start: "10:00"
+            time_end: "10:45"
           - name: Comunicación de riesgo en situaciones de crisis
-            time_start: "11:15"
-            time_end: "12:00"
+            time_start: "10:45"
+            time_end: "11:30"
           - name: Evaluación de daños y análisis de necesidades (EDAN)
             time_start: "14:00"
             time_end: "14:45"
+          - name: Rendición de cuentas y transparencia en la GRD
+            time_start: "14:45"
+            time_end: "15:30"
+          - name: Gestión del riesgo en el posconflicto colombiano
+            time_start: "15:45"
+            time_end: "16:30"
+          - name: Género y enfoque diferencial en la gestión del riesgo
+            time_start: "16:30"
+            time_end: "17:15"
+          - name: Percepción del riesgo sísmico en comunidades urbanas
+            time_start: "17:30"
+            time_end: "18:15"
+          - name: Políticas públicas de reducción del riesgo en contextos urbanos
+            time_start: "18:15"
+            time_end: "19:00"
 
-      - name: Sala Puracé
+      - name: "Sinergia (Sala Piso 2)"
         talks:
           - name: Percepción del riesgo sísmico en comunidades urbanas
-            time_start: "08:00"
-            time_end: "08:45"
+            time_start: "07:30"
+            time_end: "08:15"
           - name: Exposición y vulnerabilidad en municipios de alta montaña
-            time_start: "08:45"
-            time_end: "09:30"
+            time_start: "08:15"
+            time_end: "09:00"
           - name: Evaluación de amenaza sísmica en zonas urbanas de Colombia
-            time_start: "09:45"
-            time_end: "10:30"
+            time_start: "09:15"
+            time_end: "10:00"
           - name: Inventario nacional de pérdidas por desastres 2000-2024
-            time_start: "10:30"
-            time_end: "11:15"
+            time_start: "10:00"
+            time_end: "10:45"
           - name: Inteligencia artificial para la predicción de inundaciones
-            time_start: "11:15"
-            time_end: "12:00"
+            time_start: "10:45"
+            time_end: "11:30"
           - name: Teledetección aplicada a la identificación de amenazas
             time_start: "14:00"
             time_end: "14:45"
+          - name: Gestión comunitaria del riesgo en el Pacífico colombiano
+            time_start: "14:45"
+            time_end: "15:30"
+          - name: Atención psicosocial en fases de respuesta y recuperación
+            time_start: "15:45"
+            time_end: "16:30"
+          - name: Sistemas de alerta temprana para crecientes súbitas
+            time_start: "16:30"
+            time_end: "17:15"
+          - name: Participación comunitaria en la planificación del riesgo
+            time_start: "17:30"
+            time_end: "18:15"
+          - name: Zonificación de amenaza por lahares en el volcán Nevado del Ruiz
+            time_start: "18:15"
+            time_end: "19:00"
+
+      - name: "Auditorio Principal"
+        talks:
+          - name: "Clausura PN26: declaración y compromisos"
+            time_start: "09:00"
+            time_end: "10:00"

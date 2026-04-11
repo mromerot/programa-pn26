@@ -2,7 +2,7 @@
 name: Percepción del riesgo sísmico en comunidades urbanas
 speakers:
   - Olga Lucía Mendoza
-track: Conocimiento del Riesgo
+track: Plenaria
 tags:
   - Percepción del riesgo
   - Comunidades

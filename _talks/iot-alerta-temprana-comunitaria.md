@@ -3,7 +3,7 @@ name: Internet de las Cosas (IoT) en alerta temprana comunitaria
 speakers:
   - Viviana Alejandra Muñoz
   - Nelson Fabián Ochoa
-track: Ciencia y Tecnología
+track: Plenaria
 tags:
   - IoT
   - Alerta temprana

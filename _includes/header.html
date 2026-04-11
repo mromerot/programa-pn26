@@ -43,6 +43,41 @@
 
   {% include list_header_live.html %}
   {% include list_header_pwa.html %}
+
+  <!-- Google Translate -->
+  <div id="google_translate_element" style="display:none"></div>
+  <script>
+    function googleTranslateInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'es',
+        includedLanguages: 'en',
+        autoDisplay: false
+      }, 'google_translate_element');
+    }
+
+    function pn26ToggleLang() {
+      var btn = document.getElementById('pn26-lang-toggle');
+      var combo = document.querySelector('.goog-te-combo');
+      if (!combo) return;
+      if (combo.value === 'en') {
+        combo.value = 'es';
+        btn.textContent = 'EN';
+      } else {
+        combo.value = 'en';
+        btn.textContent = 'ES';
+      }
+      combo.dispatchEvent(new Event('change'));
+    }
+
+    // Suppress Google Translate top banner
+    function suppressGoogleBanner() {
+      var style = document.createElement('style');
+      style.textContent = '.goog-te-banner-frame, #goog-gt-tt, .goog-te-balloon-frame { display:none !important; } body { top: 0 !important; }';
+      document.head.appendChild(style);
+    }
+    document.addEventListener('DOMContentLoaded', suppressGoogleBanner);
+  </script>
+  <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateInit" async></script>
 </head>
 
 <body class="min-vh-100">

@@ -83,6 +83,11 @@ nav.navbar .navbar-toggler-icon {
   filter: invert(1);
 }
 
+nav.navbar .navbar-logo img {
+  height: 44px;
+  width: auto;
+}
+
 nav.navbar .navbar-logo a {
   color: var(--ungrd-gold);
   font-weight: 800;

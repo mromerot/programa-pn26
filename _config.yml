@@ -13,6 +13,8 @@ conference:
   navigation:
     logo:
       name: PN26
+      img: logo-pn26-icono.png
+      img_dark: logo-pn26-icono.png
     links:
       - name: Programa
         relative_url: /program/

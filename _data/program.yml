@@ -2,16 +2,15 @@ days:
   - name: Miércoles
     abbr: Mié
     date: 2026-05-20
-    breaks:
-      - name: "Espacio Libre / Refrigerio"
-        time_start: "10:00"
-        time_end: "10:30"
     rooms:
       - name: "Auditorio Principal"
         talks:
           - name: "Apertura institucional: Plataforma Nacional 2026"
             time_start: "09:00"
             time_end: "10:00"
+          - name: "Espacio Libre / Refrigerio"
+            time_start: "10:00"
+            time_end: "10:30"
           - name: "Plenaria 1: Sistemas de conocimiento en las alertas tempranas: Un diálogo de saberes para salvar vidas"
             time_start: "10:45"
             time_end: "11:45"
@@ -21,6 +20,9 @@ days:
 
       - name: "Resiliencia (Sala 1)"
         talks:
+          - name: "Espacio Libre / Refrigerio"
+            time_start: "10:00"
+            time_end: "10:30"
           - name: "Evaluación de la amenaza por tsunami en el litoral Pacífico colombiano"
             time_start: "14:00"
             time_end: "14:45"
@@ -42,6 +44,9 @@ days:
 
       - name: "Participación (Sala 2)"
         talks:
+          - name: "Espacio Libre / Refrigerio"
+            time_start: "10:00"
+            time_end: "10:30"
           - name: "Autoreforzamiento de viviendas con participación comunitaria: guías técnicas"
             time_start: "14:00"
             time_end: "14:45"
@@ -63,6 +68,9 @@ days:
 
       - name: "Solidaridad (Sala 3)"
         talks:
+          - name: "Espacio Libre / Refrigerio"
+            time_start: "10:00"
+            time_end: "10:30"
           - name: "Protocolos de búsqueda y rescate en estructuras colapsadas por terremoto"
             time_start: "14:00"
             time_end: "14:45"
@@ -84,6 +92,9 @@ days:
 
       - name: "Cimientos (Sala 4)"
         talks:
+          - name: "Espacio Libre / Refrigerio"
+            time_start: "10:00"
+            time_end: "10:30"
           - name: "Competencias de los Concejos Municipales en la reducción del riesgo de desastres"
             time_start: "14:00"
             time_end: "14:45"
@@ -105,6 +116,9 @@ days:
 
       - name: "Gobernanza (Sala VIP)"
         talks:
+          - name: "Espacio Libre / Refrigerio"
+            time_start: "10:00"
+            time_end: "10:30"
           - name: "Teledetección SAR para el mapeo de inundaciones en la Orinoquía colombiana"
             time_start: "14:00"
             time_end: "14:45"
@@ -126,6 +140,9 @@ days:
 
       - name: "Entretejidos (Mezzanine)"
         talks:
+          - name: "Espacio Libre / Refrigerio"
+            time_start: "10:00"
+            time_end: "10:30"
           - name: "Riesgo tecnológico e industrial en el corredor petroquímico de Barrancabermeja"
             time_start: "14:00"
             time_end: "14:45"
@@ -147,6 +164,9 @@ days:
 
       - name: "Horizonte (Capilla)"
         talks:
+          - name: "Espacio Libre / Refrigerio"
+            time_start: "10:00"
+            time_end: "10:30"
           - name: "Ciudades esponja: principios y aplicaciones en el contexto colombiano"
             time_start: "14:00"
             time_end: "14:45"
@@ -168,6 +188,9 @@ days:
 
       - name: "Sinergia (Sala Piso 2)"
         talks:
+          - name: "Espacio Libre / Refrigerio"
+            time_start: "10:00"
+            time_end: "10:30"
           - name: "El papel de la academia en la implementación del Marco de Sendai en América Latina"
             time_start: "14:00"
             time_end: "14:45"

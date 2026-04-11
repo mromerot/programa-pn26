@@ -14,289 +14,289 @@ days:
 
       - name: "Resiliencia (Sala 1)"
         talks:
-          - name: Evaluación de amenaza sísmica en zonas urbanas de Colombia
+          - name: "Actualización del modelo nacional de amenaza sísmica 2025"
             time_start: "07:30"
             time_end: "08:15"
-          - name: Cartografía de susceptibilidad a movimientos en masa
+          - name: "Mapeo de microzonificación sísmica en ciudades intermedias colombianas"
             time_start: "08:15"
             time_end: "09:00"
-          - name: Modelación de inundaciones fluviales en cuencas andinas
+          - name: "Inventario nacional de movimientos en masa: metodología y estado actual"
             time_start: "09:15"
             time_end: "10:00"
-          - name: Inventario nacional de pérdidas por desastres 2000-2024
+          - name: "Modelación bidimensional de flujos torrenciales en cuencas andinas"
             time_start: "10:00"
             time_end: "10:45"
-          - name: Caracterización de amenazas volcánicas en el Eje Cafetero
+          - name: "Calibración de modelos hidrológicos con datos de radar meteorológico"
             time_start: "10:45"
             time_end: "11:30"
-          - name: Zonificación de amenaza por lahares en el volcán Nevado del Ruiz
+          - name: "Evaluación de la amenaza por tsunami en el litoral Pacífico colombiano"
             time_start: "14:00"
             time_end: "14:45"
-          - name: Evaluación probabilista del riesgo de inundación costera
+          - name: "Análisis estadístico de series históricas de precipitación extrema en Colombia"
             time_start: "14:45"
             time_end: "15:30"
-          - name: "Redes de monitoreo sísmico en Colombia: avances y retos"
+          - name: "Cartografía geomorfológica aplicada a la evaluación de amenazas naturales"
             time_start: "15:45"
             time_end: "16:30"
-          - name: Teledetección aplicada a la identificación de amenazas
+          - name: "Monitoreo geodésico de volcanes activos con técnicas InSAR"
             time_start: "16:30"
             time_end: "17:15"
-          - name: Exposición y vulnerabilidad en municipios de alta montaña
+          - name: "Datación de depósitos de lahar mediante carbono-14 en el Nevado del Ruiz"
             time_start: "17:30"
             time_end: "18:15"
-          - name: Percepción del riesgo sísmico en comunidades urbanas
+          - name: "Registro histórico de terremotos destructivos en Colombia 1566-2025"
             time_start: "18:15"
             time_end: "19:00"
 
       - name: "Participación (Sala 2)"
         talks:
-          - name: Análisis de vulnerabilidad estructural en viviendas rurales
+          - name: "Índice de vulnerabilidad social multidimensional para municipios colombianos en riesgo"
             time_start: "07:30"
             time_end: "08:15"
-          - name: Exposición y vulnerabilidad en municipios de alta montaña
+          - name: "Percepción local del riesgo en comunidades afrocolombianas del Pacífico"
             time_start: "08:15"
             time_end: "09:00"
-          - name: Percepción del riesgo sísmico en comunidades urbanas
+          - name: "Capital social y capacidad de respuesta en barrios de ladera en Medellín"
             time_start: "09:15"
             time_end: "10:00"
-          - name: Construcción sismorresistente en contextos de autoconstrucción
+          - name: "Etnomapeo de riesgos en resguardos indígenas de la Amazonía colombiana"
             time_start: "10:00"
             time_end: "10:45"
-          - name: Reforzamiento estructural de edificaciones escolares
+          - name: "Evaluación de vivienda rural no convencional en zonas sísmicas intermedias"
             time_start: "10:45"
             time_end: "11:30"
-          - name: Ordenamiento territorial y reducción del riesgo de desastres
+          - name: "Autoreforzamiento de viviendas con participación comunitaria: guías técnicas"
             time_start: "14:00"
             time_end: "14:45"
-          - name: Reasentamiento de comunidades en zonas de alto riesgo
+          - name: "Desigualdad urbana y distribución espacial del riesgo en Bogotá D.C."
             time_start: "14:45"
             time_end: "15:30"
-          - name: Soluciones basadas en la naturaleza para reducción de riesgo
+          - name: "Riesgo de desastres y desnutrición crónica: vínculos en la ruralidad colombiana"
             time_start: "15:45"
             time_end: "16:30"
-          - name: Protección de ecosistemas como medida de reducción del riesgo
+          - name: "Adultos mayores y discapacidad en planes de preparación para emergencias"
             time_start: "16:30"
             time_end: "17:15"
-          - name: Jardines de lluvia y drenaje urbano sostenible
+          - name: "Movilidad humana previa y post-desastre en el Archipiélago de San Andrés"
             time_start: "17:30"
             time_end: "18:15"
-          - name: Reducción de riesgo de incendios forestales en Cundinamarca
+          - name: "Análisis de género en los impactos diferenciados de inundaciones en el Meta"
             time_start: "18:15"
             time_end: "19:00"
 
       - name: "Solidaridad (Sala 3)"
         talks:
-          - name: Sistemas de alerta temprana para crecientes súbitas
+          - name: "Diseño de rutas de evacuación en municipios de alta montaña volcánica"
             time_start: "07:30"
             time_end: "08:15"
-          - name: Protocolos de evacuación ante amenaza volcánica
+          - name: "Cadena de mando y coordinación interinstitucional en la respuesta a desastres"
             time_start: "08:15"
             time_end: "09:00"
-          - name: Coordinación interinstitucional en respuesta a emergencias
+          - name: "Logística de distribución de ayuda humanitaria en zonas de difícil acceso fluvial"
             time_start: "09:15"
             time_end: "10:00"
-          - name: Atención psicosocial en fases de respuesta y recuperación
+          - name: "Evaluación de daños en infraestructura hospitalaria después de un sismo"
             time_start: "10:00"
             time_end: "10:45"
-          - name: Logística humanitaria en zonas de difícil acceso
+          - name: "Gestión de albergues temporales con enfoque de género y diversidad"
             time_start: "10:45"
             time_end: "11:30"
-          - name: Evaluación de daños y análisis de necesidades (EDAN)
+          - name: "Protocolos de búsqueda y rescate en estructuras colapsadas por terremoto"
             time_start: "14:00"
             time_end: "14:45"
-          - name: Comunicación de riesgo en situaciones de crisis
+          - name: "Manejo de fallecidos en eventos de masas y su impacto en la salud pública"
             time_start: "14:45"
             time_end: "15:30"
-          - name: Gestión de albergues temporales en emergencias masivas
+          - name: "Telecomunicaciones de emergencia y planes de contingencia ante colapso de redes"
             time_start: "15:45"
             time_end: "16:30"
-          - name: Simulacros y ejercicios de preparación comunitaria
+          - name: "Primeros auxilios psicológicos en respuesta a emergencias de masas"
             time_start: "16:30"
             time_end: "17:15"
-          - name: Recuperación temprana y medios de vida post-desastre
+          - name: "Atención integral a personas con discapacidad en situaciones de emergencia"
             time_start: "17:30"
             time_end: "18:15"
-          - name: Coordinación entre niveles de gobierno en emergencias
+          - name: "Planes de contingencia para el sistema de acueducto en emergencias sísmicas"
             time_start: "18:15"
             time_end: "19:00"
 
       - name: "Cimientos (Sala 4)"
         talks:
-          - name: Marcos legales para la gestión del riesgo en América Latina
+          - name: "Implementación de la Ley 1523 de 2012: balance a trece años de vigencia"
             time_start: "07:30"
             time_end: "08:15"
-          - name: Financiamiento público del riesgo de desastres en Colombia
+          - name: "Los Planes Municipales de Gestión del Riesgo como instrumentos de planificación"
             time_start: "08:15"
             time_end: "09:00"
-          - name: El papel de los gobiernos locales en la GRD
+          - name: "Integración del riesgo en los Planes de Ordenamiento Territorial: estado del arte"
             time_start: "09:15"
             time_end: "10:00"
-          - name: Acuerdos internacionales y el Marco de Sendai en Colombia
+          - name: "Rendición de cuentas en la ejecución de recursos para la gestión del riesgo"
             time_start: "10:00"
             time_end: "10:45"
-          - name: Rendición de cuentas y transparencia en la GRD
+          - name: "Marco normativo de las CAR en la gestión del riesgo de desastres en Colombia"
             time_start: "10:45"
             time_end: "11:30"
-          - name: Género y enfoque diferencial en la gestión del riesgo
+          - name: "Competencias de los Concejos Municipales en la reducción del riesgo de desastres"
             time_start: "14:00"
             time_end: "14:45"
-          - name: Gestión del riesgo en el posconflicto colombiano
+          - name: "Financiamiento público de la GRD: análisis del presupuesto nacional 2018-2025"
             time_start: "14:45"
             time_end: "15:30"
-          - name: Políticas públicas de reducción del riesgo en contextos urbanos
+          - name: "Transferencia de riesgo al sector privado: seguros y bonos catástrofe en Colombia"
             time_start: "15:45"
             time_end: "16:30"
-          - name: Participación comunitaria en la planificación del riesgo
+          - name: "El papel del Ministerio de Vivienda en la reducción del riesgo en asentamientos"
             time_start: "16:30"
             time_end: "17:15"
-          - name: Integración del riesgo en planes de desarrollo municipal
+          - name: "Política pública de reasentamiento de hogares en zonas de alto riesgo no mitigable"
             time_start: "17:30"
             time_end: "18:15"
-          - name: Gestión comunitaria del riesgo en el Pacífico colombiano
+          - name: "Rol del Congreso de la República en la legislación sobre gestión del riesgo"
             time_start: "18:15"
             time_end: "19:00"
 
       - name: "Gobernanza (Sala VIP)"
         talks:
-          - name: "Redes de monitoreo sísmico en Colombia: avances y retos"
+          - name: "Infraestructura nacional de datos geoespaciales para la gestión del riesgo"
             time_start: "07:30"
             time_end: "08:15"
-          - name: Teledetección aplicada a la identificación de amenazas
+          - name: "Plataformas SIG en la nube para la gestión del riesgo a escala municipal"
             time_start: "08:15"
             time_end: "09:00"
-          - name: Inteligencia artificial para la predicción de inundaciones
+          - name: "Algoritmos de detección de cambios en imágenes Sentinel-2 post-desastre"
             time_start: "09:15"
             time_end: "10:00"
-          - name: Sistemas de información geográfica para la GRD
+          - name: "Integración de datos LiDAR aerotransportado en modelos de amenaza de ladera"
             time_start: "10:00"
             time_end: "10:45"
-          - name: Modelación numérica de flujos de lodo volcánico
+          - name: "Redes de monitoreo sísmico en tiempo real: arquitectura y protocolos de datos"
             time_start: "10:45"
             time_end: "11:30"
-          - name: Plataformas de datos abiertos para la gestión del riesgo
+          - name: "Teledetección SAR para el mapeo de inundaciones en la Orinoquía colombiana"
             time_start: "14:00"
             time_end: "14:45"
-          - name: Gemelos digitales de ciudades para planificación del riesgo
+          - name: "Visión por computador para clasificación de daños estructurales post-sismo"
             time_start: "14:45"
             time_end: "15:30"
-          - name: Internet de las Cosas (IoT) en alerta temprana comunitaria
+          - name: "Digital twins de infraestructura crítica para simulación de escenarios de riesgo"
             time_start: "15:45"
             time_end: "16:30"
-          - name: Drones y sensores remotos en evaluación post-desastre
+          - name: "APIs abiertas para el intercambio de datos de riesgo entre entidades del SNGRD"
             time_start: "16:30"
             time_end: "17:15"
-          - name: Aprendizaje automático en la evaluación de vulnerabilidad
+          - name: "Sistemas NoSQL para la gestión de datos en emergencias de gran escala"
             time_start: "17:30"
             time_end: "18:15"
-          - name: Modelación de inundaciones fluviales en cuencas andinas
+          - name: "Ciberseguridad en los sistemas de información del SNGRD"
             time_start: "18:15"
             time_end: "19:00"
 
       - name: "Entretejidos (Mezzanine)"
         talks:
-          - name: Protección de ecosistemas como medida de reducción del riesgo
+          - name: "Nexo entre cambio climático, degradación ambiental y aumento del riesgo"
             time_start: "07:30"
             time_end: "08:15"
-          - name: Reducción de riesgo de incendios forestales en Cundinamarca
+          - name: "Ecosistemas de manglar como infraestructura natural para reducción del riesgo costero"
             time_start: "08:15"
             time_end: "09:00"
-          - name: Soluciones basadas en la naturaleza para reducción de riesgo
+          - name: "Restauración de cuencas hidrográficas como medida de reducción del riesgo"
             time_start: "09:15"
             time_end: "10:00"
-          - name: Jardines de lluvia y drenaje urbano sostenible
+          - name: "Riesgo de desastres y seguridad alimentaria en regiones agrícolas vulnerables"
             time_start: "10:00"
             time_end: "10:45"
-          - name: Gestión comunitaria del riesgo en el Pacífico colombiano
+          - name: "Integración de la gestión del riesgo en los planes de salud territorial"
             time_start: "10:45"
             time_end: "11:30"
-          - name: Integración del riesgo en planes de desarrollo municipal
+          - name: "Riesgo tecnológico e industrial en el corredor petroquímico de Barrancabermeja"
             time_start: "14:00"
             time_end: "14:45"
-          - name: Participación comunitaria en la planificación del riesgo
+          - name: "Patrimonio cultural en riesgo: estrategias de conservación preventiva en Colombia"
             time_start: "14:45"
             time_end: "15:30"
-          - name: Género y enfoque diferencial en la gestión del riesgo
+          - name: "Impacto de los desastres en la cobertura educativa en zonas rurales colombianas"
             time_start: "15:45"
             time_end: "16:30"
-          - name: Gestión del riesgo en el posconflicto colombiano
+          - name: "Desastres y pobreza: análisis de la trampa de la vulnerabilidad en Colombia"
             time_start: "16:30"
             time_end: "17:15"
-          - name: El papel de los gobiernos locales en la GRD
+          - name: "Biodiversidad y ecosistemas como factores de resiliencia territorial"
             time_start: "17:30"
             time_end: "18:15"
-          - name: Reasentamiento de comunidades en zonas de alto riesgo
+          - name: "Articulación entre la gestión del riesgo y la política de seguridad hídrica"
             time_start: "18:15"
             time_end: "19:00"
 
       - name: "Horizonte (Capilla)"
         talks:
-          - name: Drones y sensores remotos en evaluación post-desastre
+          - name: "Escenarios de riesgo de desastres en Colombia al 2050 bajo cambio climático"
             time_start: "07:30"
             time_end: "08:15"
-          - name: Internet de las Cosas (IoT) en alerta temprana comunitaria
+          - name: "Innovación social en la gestión del riesgo: experiencias en municipios rurales"
             time_start: "08:15"
             time_end: "09:00"
-          - name: Aprendizaje automático en la evaluación de vulnerabilidad
+          - name: "Riesgo de eventos compuestos (compound events) en el sistema climático colombiano"
             time_start: "09:15"
             time_end: "10:00"
-          - name: Simulacros y ejercicios de preparación comunitaria
+          - name: "Nanotecnología aplicada a materiales de construcción sismo-resistentes"
             time_start: "10:00"
             time_end: "10:45"
-          - name: Recuperación temprana y medios de vida post-desastre
+          - name: "Impacto del cambio de uso del suelo en la generación de inundaciones urbanas"
             time_start: "10:45"
             time_end: "11:30"
-          - name: Gestión de albergues temporales en emergencias masivas
+          - name: "Ciudades esponja: principios y aplicaciones en el contexto colombiano"
             time_start: "14:00"
             time_end: "14:45"
-          - name: Coordinación entre niveles de gobierno en emergencias
+          - name: "Financiamiento basado en resultados para la reducción del riesgo de desastres"
             time_start: "14:45"
             time_end: "15:30"
-          - name: Comunicación de riesgo en situaciones de crisis
+          - name: "Riesgo de desastres en el contexto de la transición energética colombiana"
             time_start: "15:45"
             time_end: "16:30"
-          - name: Evaluación de daños y análisis de necesidades (EDAN)
+          - name: "Innovación en sistemas de alerta temprana comunitaria de bajo costo"
             time_start: "16:30"
             time_end: "17:15"
-          - name: Logística humanitaria en zonas de difícil acceso
+          - name: "Ciudades resilientes: indicadores y marcos de evaluación para Colombia"
             time_start: "17:30"
             time_end: "18:15"
-          - name: Atención psicosocial en fases de respuesta y recuperación
+          - name: "Prospectiva estratégica en la gestión del riesgo de desastres"
             time_start: "18:15"
             time_end: "19:00"
 
       - name: "Sinergia (Sala Piso 2)"
         talks:
-          - name: Políticas públicas de reducción del riesgo en contextos urbanos
+          - name: "Cooperación triangular en gestión del riesgo: Colombia-Chile-CEPAL"
             time_start: "07:30"
             time_end: "08:15"
-          - name: Percepción del riesgo sísmico en comunidades urbanas
+          - name: "Gestión del riesgo en países andinos: comparativa regional de avances"
             time_start: "08:15"
             time_end: "09:00"
-          - name: Gestión comunitaria del riesgo en el Pacífico colombiano
+          - name: "El modelo japonés de preparación ante desastres: lecciones para Colombia"
             time_start: "09:15"
             time_end: "10:00"
-          - name: Atención psicosocial en fases de respuesta y recuperación
+          - name: "Alianzas público-privadas para la financiación de infraestructura resiliente"
             time_start: "10:00"
             time_end: "10:45"
-          - name: Evaluación de daños y análisis de necesidades (EDAN)
+          - name: "Gestión del riesgo en pequeños estados insulares del Caribe: lecciones aplicables"
             time_start: "10:45"
             time_end: "11:30"
-          - name: Comunicación de riesgo en situaciones de crisis
+          - name: "El papel de la academia en la implementación del Marco de Sendai en América Latina"
             time_start: "14:00"
             time_end: "14:45"
-          - name: Participación comunitaria en la planificación del riesgo
+          - name: "Riesgo de desastres y migración climática en Centroamérica y norte de Suramérica"
             time_start: "14:45"
             time_end: "15:30"
-          - name: Financiamiento público del riesgo de desastres en Colombia
+          - name: "Experiencias de reducción del riesgo en comunidades rurales de Bangladesh"
             time_start: "15:45"
             time_end: "16:30"
-          - name: Marcos legales para la gestión del riesgo en América Latina
+          - name: "Instrumentos financieros multilaterales para la gestión del riesgo en Colombia"
             time_start: "16:30"
             time_end: "17:15"
-          - name: Rendición de cuentas y transparencia en la GRD
+          - name: "Gestión del conocimiento en redes internacionales de práctica en GRD"
             time_start: "17:30"
             time_end: "18:15"
-          - name: Coordinación interinstitucional en respuesta a emergencias
+          - name: "Estándares internacionales de calidad en ayuda humanitaria: el proyecto ESFERA"
             time_start: "18:15"
             time_end: "19:00"
 
@@ -315,289 +315,289 @@ days:
 
       - name: "Resiliencia (Sala 1)"
         talks:
-          - name: Zonificación de amenaza por lahares en el volcán Nevado del Ruiz
+          - name: "Modelación probabilista de amenaza volcánica con árboles de eventos"
             time_start: "07:30"
             time_end: "08:15"
-          - name: Modelación numérica de flujos de lodo volcánico
+          - name: "Susceptibilidad a deslizamientos: comparativa de métodos estadísticos y ML"
             time_start: "08:15"
             time_end: "09:00"
-          - name: "Redes de monitoreo sísmico en Colombia: avances y retos"
+          - name: "Estimación de la amenaza sísmica en sitio con coeficientes de amplificación"
             time_start: "09:15"
             time_end: "10:00"
-          - name: Evaluación de amenaza sísmica en zonas urbanas de Colombia
+          - name: "Análisis de cuencas de recepción para flujos de detritos en el Eje Cafetero"
             time_start: "10:00"
             time_end: "10:45"
-          - name: Cartografía de susceptibilidad a movimientos en masa
+          - name: "Variabilidad climática ENSO e intensidad de temporadas de lluvias en Colombia"
             time_start: "10:45"
             time_end: "11:30"
-          - name: Exposición y vulnerabilidad en municipios de alta montaña
+          - name: "Evaluación multiamenaza en municipios priorizados del Pacífico colombiano"
             time_start: "14:00"
             time_end: "14:45"
-          - name: Inventario nacional de pérdidas por desastres 2000-2024
+          - name: "Caracterización geotécnica de materiales volcánicos en laderas inestables"
             time_start: "14:45"
             time_end: "15:30"
-          - name: Teledetección aplicada a la identificación de amenazas
+          - name: "Sensores GNSS de bajo costo para monitoreo de deformaciones superficiales"
             time_start: "15:45"
             time_end: "16:30"
-          - name: Caracterización de amenazas volcánicas en el Eje Cafetero
+          - name: "Delimitación de zonas de protección hídrica con análisis de inundación histórica"
             time_start: "16:30"
             time_end: "17:15"
-          - name: Evaluación probabilista del riesgo de inundación costera
+          - name: "Efectos de sitio en suelos blandos: municipio de Armenia post-sismo 1999"
             time_start: "17:30"
             time_end: "18:15"
-          - name: Sistemas de información geográfica para la GRD
+          - name: "Paleosismología y recurrencia de grandes terremotos en la falla Cauca-Romeral"
             time_start: "18:15"
             time_end: "19:00"
 
       - name: "Participación (Sala 2)"
         talks:
-          - name: Acuerdos internacionales y el Marco de Sendai en Colombia
+          - name: "Brigadas comunitarias de gestión del riesgo: evaluación de competencias técnicas"
             time_start: "07:30"
             time_end: "08:15"
-          - name: Marcos legales para la gestión del riesgo en América Latina
+          - name: "Saberes tradicionales y gestión del territorio en comunidades campesinas del Huila"
             time_start: "08:15"
             time_end: "09:00"
-          - name: Financiamiento público del riesgo de desastres en Colombia
+          - name: "Escuelas seguras frente a desastres: diagnóstico de infraestructura educativa"
             time_start: "09:15"
             time_end: "10:00"
-          - name: Rendición de cuentas y transparencia en la GRD
+          - name: "Acceso a información de riesgo en comunidades con bajos niveles de escolaridad"
             time_start: "10:00"
             time_end: "10:45"
-          - name: Coordinación entre niveles de gobierno en emergencias
+          - name: "Cartografía de riesgos con perspectiva de género en el Caribe colombiano"
             time_start: "10:45"
             time_end: "11:30"
-          - name: Gestión del riesgo en el posconflicto colombiano
+          - name: "Vulnerabilidad de asentamientos informales ante inundaciones en Cali"
             time_start: "14:00"
             time_end: "14:45"
-          - name: Políticas públicas de reducción del riesgo en contextos urbanos
+          - name: "Resiliencia familiar post-desastre: factores protectores y de riesgo identificados"
             time_start: "14:45"
             time_end: "15:30"
-          - name: El papel de los gobiernos locales en la GRD
+          - name: "Migración rural-urbana y acumulación de riesgo en ciudades intermedias colombianas"
             time_start: "15:45"
             time_end: "16:30"
-          - name: Género y enfoque diferencial en la gestión del riesgo
+          - name: "Participación de las mujeres en los Consejos Municipales de Gestión del Riesgo"
             time_start: "16:30"
             time_end: "17:15"
-          - name: Participación comunitaria en la planificación del riesgo
+          - name: "Niñez y juventud como actores en la construcción de cultura de gestión del riesgo"
             time_start: "17:30"
             time_end: "18:15"
-          - name: Gestión comunitaria del riesgo en el Pacífico colombiano
+          - name: "Eficacia de redes comunitarias de alerta ante crecientes súbitas en el Cauca"
             time_start: "18:15"
             time_end: "19:00"
 
       - name: "Solidaridad (Sala 3)"
         talks:
-          - name: Sistemas de alerta temprana para crecientes súbitas
+          - name: "Coordinación civil-militar en operaciones de respuesta a desastres en Colombia"
             time_start: "07:30"
             time_end: "08:15"
-          - name: Internet de las Cosas (IoT) en alerta temprana comunitaria
+          - name: "Gestión logística de la ayuda humanitaria durante la emergencia por Ola Invernal"
             time_start: "08:15"
             time_end: "09:00"
-          - name: Inteligencia artificial para la predicción de inundaciones
+          - name: "Triaje en situaciones de múltiples víctimas: protocolos START y SALT adaptados"
             time_start: "09:15"
             time_end: "10:00"
-          - name: Gemelos digitales de ciudades para planificación del riesgo
+          - name: "Evaluación estructural rápida de puentes post-sismo para apertura de vías"
             time_start: "10:00"
             time_end: "10:45"
-          - name: Aprendizaje automático en la evaluación de vulnerabilidad
+          - name: "Operaciones de rescate en zonas inundadas con embarcaciones de motor"
             time_start: "10:45"
             time_end: "11:30"
-          - name: Plataformas de datos abiertos para la gestión del riesgo
+          - name: "Gestión de residuos sólidos y escombros en fases de recuperación temprana"
             time_start: "14:00"
             time_end: "14:45"
-          - name: Drones y sensores remotos en evaluación post-desastre
+          - name: "Cadena de frío y distribución de medicamentos en zonas de emergencia prolongada"
             time_start: "14:45"
             time_end: "15:30"
-          - name: Sistemas de información geográfica para la GRD
+          - name: "Movilización de recursos del Fondo Nacional de Calamidades: procedimientos"
             time_start: "15:45"
             time_end: "16:30"
-          - name: "Redes de monitoreo sísmico en Colombia: avances y retos"
+          - name: "Voluntariado corporativo en respuesta a emergencias: marcos de colaboración"
             time_start: "16:30"
             time_end: "17:15"
-          - name: Teledetección aplicada a la identificación de amenazas
+          - name: "Simulacros de evacuación en edificios de gran altura: análisis de comportamiento"
             time_start: "17:30"
             time_end: "18:15"
-          - name: Modelación de inundaciones fluviales en cuencas andinas
+          - name: "Evaluación del impacto de los simulacros nacionales en la cultura de preparación"
             time_start: "18:15"
             time_end: "19:00"
 
       - name: "Cimientos (Sala 4)"
         talks:
-          - name: Construcción sismorresistente en contextos de autoconstrucción
+          - name: "Acuerdo de Escazú y acceso a la información ambiental en contextos de riesgo"
             time_start: "07:30"
             time_end: "08:15"
-          - name: Reforzamiento estructural de edificaciones escolares
+          - name: "Descentralización fiscal y capacidad municipal para la gestión del riesgo"
             time_start: "08:15"
             time_end: "09:00"
-          - name: Reasentamiento de comunidades en zonas de alto riesgo
+          - name: "Enfoque de derechos humanos en la política de gestión del riesgo de Colombia"
             time_start: "09:15"
             time_end: "10:00"
-          - name: Ordenamiento territorial y reducción del riesgo de desastres
+          - name: "Mecanismos de veeduría ciudadana en proyectos de reducción del riesgo"
             time_start: "10:00"
             time_end: "10:45"
-          - name: Análisis de vulnerabilidad estructural en viviendas rurales
+          - name: "Régimen especial de contratación para la atención de desastres en Colombia"
             time_start: "10:45"
             time_end: "11:30"
-          - name: Protección de ecosistemas como medida de reducción del riesgo
+          - name: "Integración del riesgo de desastres en los planes de desarrollo departamental"
             time_start: "14:00"
             time_end: "14:45"
-          - name: Soluciones basadas en la naturaleza para reducción de riesgo
+          - name: "Gobernanza del riesgo en las Áreas Metropolitanas: experiencia de Cali y Bogotá"
             time_start: "14:45"
             time_end: "15:30"
-          - name: Jardines de lluvia y drenaje urbano sostenible
+          - name: "El Marco de Sendai y su implementación en el ordenamiento jurídico colombiano"
             time_start: "15:45"
             time_end: "16:30"
-          - name: Reducción de riesgo de incendios forestales en Cundinamarca
+          - name: "Cooperación descentralizada en GRD: municipios colombianos y socios europeos"
             time_start: "16:30"
             time_end: "17:15"
-          - name: Integración del riesgo en planes de desarrollo municipal
+          - name: "Actuación del Ministerio Público en la prevención y atención de desastres"
             time_start: "17:30"
             time_end: "18:15"
-          - name: Evaluación probabilista del riesgo de inundación costera
+          - name: "Reforma institucional del SNGRD: propuestas para una segunda generación"
             time_start: "18:15"
             time_end: "19:00"
 
       - name: "Gobernanza (Sala VIP)"
         talks:
-          - name: Protocolos de evacuación ante amenaza volcánica
+          - name: "Modelos de lenguaje grande (LLM) aplicados a la síntesis de informes de situación"
             time_start: "07:30"
             time_end: "08:15"
-          - name: Coordinación interinstitucional en respuesta a emergencias
+          - name: "Procesamiento de imágenes de drones con software libre en evaluación post-desastre"
             time_start: "08:15"
             time_end: "09:00"
-          - name: Logística humanitaria en zonas de difícil acceso
+          - name: "Redes neuronales convolucionales para la detección automatizada de deslizamientos"
             time_start: "09:15"
             time_end: "10:00"
-          - name: Gestión de albergues temporales en emergencias masivas
+          - name: "Internet de las cosas aplicado a cuencas hidrográficas: telemetría de bajo costo"
             time_start: "10:00"
             time_end: "10:45"
-          - name: Recuperación temprana y medios de vida post-desastre
+          - name: "Computación en la frontera (edge computing) para alertas tempranas en zonas rurales"
             time_start: "10:45"
             time_end: "11:30"
-          - name: Simulacros y ejercicios de preparación comunitaria
+          - name: "Crowdsourcing para la validación de mapas de daños post-evento en Colombia"
             time_start: "14:00"
             time_end: "14:45"
-          - name: Evaluación de daños y análisis de necesidades (EDAN)
+          - name: "Análisis de sentimiento en redes sociales durante emergencias con NLP"
             time_start: "14:45"
             time_end: "15:30"
-          - name: Comunicación de riesgo en situaciones de crisis
+          - name: "Simulación de evacuación mediante dinámica de fluidos computacional"
             time_start: "15:45"
             time_end: "16:30"
-          - name: Atención psicosocial en fases de respuesta y recuperación
+          - name: "Reconocimiento automático de patrones sísmicos con redes LSTM"
             time_start: "16:30"
             time_end: "17:15"
-          - name: Coordinación entre niveles de gobierno en emergencias
+          - name: "Interoperabilidad de sistemas de alerta temprana bajo el estándar CAP 1.2"
             time_start: "17:30"
             time_end: "18:15"
-          - name: Sistemas de alerta temprana para crecientes súbitas
+          - name: "Arquitectura de microservicios para plataformas de gestión de emergencias"
             time_start: "18:15"
             time_end: "19:00"
 
       - name: "Entretejidos (Mezzanine)"
         talks:
-          - name: Género y enfoque diferencial en la gestión del riesgo
+          - name: "Gestión integral del recurso hídrico en cuencas compartidas y riesgo de desastres"
             time_start: "07:30"
             time_end: "08:15"
-          - name: Participación comunitaria en la planificación del riesgo
+          - name: "Infraestructura verde urbana y reducción del riesgo de inundación en ciudades"
             time_start: "08:15"
             time_end: "09:00"
-          - name: Gestión comunitaria del riesgo en el Pacífico colombiano
+          - name: "Nexo agua-energía-alimentos en contextos de riesgo climático en Colombia"
             time_start: "09:15"
             time_end: "10:00"
-          - name: Integración del riesgo en planes de desarrollo municipal
+          - name: "Gestión de riesgos en el sector turístico costero: experiencias del Caribe"
             time_start: "10:00"
             time_end: "10:45"
-          - name: Reducción de riesgo de incendios forestales en Cundinamarca
+          - name: "Riesgo sísmico en la infraestructura de petróleo y gas en la cuenca de los Llanos"
             time_start: "10:45"
             time_end: "11:30"
-          - name: Percepción del riesgo sísmico en comunidades urbanas
+          - name: "Impactos en la biodiversidad de los grandes movimientos en masa en el Pacífico"
             time_start: "14:00"
             time_end: "14:45"
-          - name: Atención psicosocial en fases de respuesta y recuperación
+          - name: "Gestión del riesgo en corredores logísticos de alto valor económico para Colombia"
             time_start: "14:45"
             time_end: "15:30"
-          - name: Gestión del riesgo en el posconflicto colombiano
+          - name: "Análisis de riesgo en infraestructura vial de montaña: el caso de la vía al Llano"
             time_start: "15:45"
             time_end: "16:30"
-          - name: Financiamiento público del riesgo de desastres en Colombia
+          - name: "Contaminación hídrica post-desastre y afectación a ecosistemas acuáticos"
             time_start: "16:30"
             time_end: "17:15"
-          - name: Acuerdos internacionales y el Marco de Sendai en Colombia
+          - name: "Riesgo de desastres en el sector minero-energético de Colombia"
             time_start: "17:30"
             time_end: "18:15"
-          - name: Políticas públicas de reducción del riesgo en contextos urbanos
+          - name: "Turismo de riesgo y memoria: oportunidades para el desarrollo local en Colombia"
             time_start: "18:15"
             time_end: "19:00"
 
       - name: "Horizonte (Capilla)"
         talks:
-          - name: Caracterización de amenazas volcánicas en el Eje Cafetero
+          - name: "Gobernanza anticipatoria del riesgo: marcos para la acción preventiva en Colombia"
             time_start: "07:30"
             time_end: "08:15"
-          - name: Evaluación probabilista del riesgo de inundación costera
+          - name: "Riesgo de desastres y digitalización de la economía colombiana"
             time_start: "08:15"
             time_end: "09:00"
-          - name: Modelación de inundaciones fluviales en cuencas andinas
+          - name: "Impacto de megaproyectos de infraestructura en la generación de nuevos riesgos"
             time_start: "09:15"
             time_end: "10:00"
-          - name: Protección de ecosistemas como medida de reducción del riesgo
+          - name: "Sistemas de seguros paramétricos para catástrofes naturales en Colombia"
             time_start: "10:00"
             time_end: "10:45"
-          - name: Gestión comunitaria del riesgo en el Pacífico colombiano
+          - name: "Perspectivas del financiamiento privado en la reducción del riesgo de desastres"
             time_start: "10:45"
             time_end: "11:30"
-          - name: Sistemas de alerta temprana para crecientes súbitas
+          - name: "Innovación en la gestión de residuos post-desastre con economía circular"
             time_start: "14:00"
             time_end: "14:45"
-          - name: Protocolos de evacuación ante amenaza volcánica
+          - name: "Análisis de tipping points en sistemas socioecológicos expuestos al riesgo"
             time_start: "14:45"
             time_end: "15:30"
-          - name: Zonificación de amenaza por lahares en el volcán Nevado del Ruiz
+          - name: "Gestión del riesgo de desastres en la agenda de los Objetivos de Desarrollo Sostenible"
             time_start: "15:45"
             time_end: "16:30"
-          - name: Inventario nacional de pérdidas por desastres 2000-2024
+          - name: "Gestión adaptativa del riesgo ante la incertidumbre climática en Colombia"
             time_start: "16:30"
             time_end: "17:15"
-          - name: Análisis de vulnerabilidad estructural en viviendas rurales
+          - name: "Enfoques de sistemas complejos para la comprensión del riesgo de desastres"
             time_start: "17:30"
             time_end: "18:15"
-          - name: Modelación numérica de flujos de lodo volcánico
+          - name: "Planeación de largo plazo en la gestión del riesgo: el caso de los POMCAS"
             time_start: "18:15"
             time_end: "19:00"
 
       - name: "Sinergia (Sala Piso 2)"
         talks:
-          - name: Aprendizaje automático en la evaluación de vulnerabilidad
+          - name: "Gestión del riesgo en ciudades costeras de Asia Pacífico: transferencia de conocimiento"
             time_start: "07:30"
             time_end: "08:15"
-          - name: Drones y sensores remotos en evaluación post-desastre
+          - name: "Cooperación Sur-Sur en gestión del riesgo: experiencias de Colombia en África"
             time_start: "08:15"
             time_end: "09:00"
-          - name: "Redes de monitoreo sísmico en Colombia: avances y retos"
+          - name: "Arquitectura de gobernanza global del riesgo de desastres: UNDRR y el sistema ONU"
             time_start: "09:15"
             time_end: "10:00"
-          - name: Plataformas de datos abiertos para la gestión del riesgo
+          - name: "Riesgo de desastres y comercio internacional: implicaciones para Colombia"
             time_start: "10:00"
             time_end: "10:45"
-          - name: Internet de las Cosas (IoT) en alerta temprana comunitaria
+          - name: "El rol del sector privado en la reducción del riesgo: iniciativas y pactos globales"
             time_start: "10:45"
             time_end: "11:30"
-          - name: Teledetección aplicada a la identificación de amenazas
+          - name: "Gestión del riesgo en ciudades patrimonio de la humanidad: el desafío de la conservación"
             time_start: "14:00"
             time_end: "14:45"
-          - name: Inteligencia artificial para la predicción de inundaciones
+          - name: "Experiencias de recuperación post-desastre en Haití: catorce años de lecciones"
             time_start: "14:45"
             time_end: "15:30"
-          - name: Gemelos digitales de ciudades para planificación del riesgo
+          - name: "Ecosistemas de innovación para la resiliencia: modelos referentes en el mundo"
             time_start: "15:45"
             time_end: "16:30"
-          - name: Ordenamiento territorial y reducción del riesgo de desastres
+          - name: "Mecanismos de solidaridad internacional post-desastre: del CERF a los llamamientos"
             time_start: "16:30"
             time_end: "17:15"
-          - name: Cartografía de susceptibilidad a movimientos en masa
+          - name: "Riesgo de desastres y cadenas de suministro globales: vulnerabilidades expuestas"
             time_start: "17:30"
             time_end: "18:15"
-          - name: Evaluación de amenaza sísmica en zonas urbanas de Colombia
+          - name: "Intercambio tecnológico en gestión del riesgo entre Colombia y la Unión Europea"
             time_start: "18:15"
             time_end: "19:00"
 
@@ -613,288 +613,289 @@ days:
 
       - name: "Resiliencia (Sala 1)"
         talks:
-          - name: Gestión del riesgo en el posconflicto colombiano
+          - name: "Red sismológica nacional: estado de la instrumentación y planes de expansión"
             time_start: "07:30"
             time_end: "08:15"
-          - name: Políticas públicas de reducción del riesgo en contextos urbanos
+          - name: "Análisis espectral de señales sísmicas para clasificación automática de eventos"
             time_start: "08:15"
             time_end: "09:00"
-          - name: Género y enfoque diferencial en la gestión del riesgo
+          - name: "Vulnerabilidad geotécnica de infraestructura vial en zonas de alta sismicidad"
             time_start: "09:15"
             time_end: "10:00"
-          - name: Participación comunitaria en la planificación del riesgo
+          - name: "Escenarios de inundación por lluvias extremas bajo cambio climático en Colombia"
             time_start: "10:00"
             time_end: "10:45"
-          - name: Coordinación entre niveles de gobierno en emergencias
+          - name: "Registro LiDAR de cicatrices de deslizamiento en la cuenca del río Magdalena"
             time_start: "10:45"
             time_end: "11:30"
-          - name: Rendición de cuentas y transparencia en la GRD
+          - name: "Zonificación de amenaza por erosión costera en el Caribe colombiano"
             time_start: "14:00"
             time_end: "14:45"
-          - name: Acuerdos internacionales y el Marco de Sendai en Colombia
+          - name: "Modelación de la propagación de tsunamis en el océano Pacífico colombiano"
             time_start: "14:45"
             time_end: "15:30"
-          - name: El papel de los gobiernos locales en la GRD
+          - name: "Análisis de recurrencia de avenidas torrenciales en cuencas de la Sierra Nevada"
             time_start: "15:45"
             time_end: "16:30"
-          - name: Financiamiento público del riesgo de desastres en Colombia
+          - name: "Determinación del nivel freático como factor detonante de deslizamientos"
             time_start: "16:30"
             time_end: "17:15"
-          - name: Marcos legales para la gestión del riesgo en América Latina
+          - name: "Evaluación de la amenaza sísmica en plantas de generación eléctrica colombianas"
             time_start: "17:30"
             time_end: "18:15"
-          - name: Integración del riesgo en planes de desarrollo municipal
+          - name: "Geología del cuaternario y riesgo de licuefacción en depósitos aluviales"
             time_start: "18:15"
             time_end: "19:00"
 
       - name: "Participación (Sala 2)"
         talks:
-          - name: Evaluación probabilista del riesgo de inundación costera
+          - name: "Recuperación de medios de vida en comunidades pesqueras post-desastre costero"
             time_start: "07:30"
             time_end: "08:15"
-          - name: Cartografía de susceptibilidad a movimientos en masa
+          - name: "Acceso a servicios de salud en emergencias para poblaciones dispersas en Vichada"
             time_start: "08:15"
             time_end: "09:00"
-          - name: Zonificación de amenaza por lahares en el volcán Nevado del Ruiz
+          - name: "Comunidades negras e indígenas frente a la sequía en La Guajira colombiana"
             time_start: "09:15"
             time_end: "10:00"
-          - name: Caracterización de amenazas volcánicas en el Eje Cafetero
+          - name: "Impactos del desplazamiento forzado en la acumulación de riesgo urbano"
             time_start: "10:00"
             time_end: "10:45"
-          - name: "Redes de monitoreo sísmico en Colombia: avances y retos"
+          - name: "Tejido social y cohesión comunitaria como factores de resiliencia post-inundación"
             time_start: "10:45"
             time_end: "11:30"
-          - name: Modelación numérica de flujos de lodo volcánico
+          - name: "Evaluación de competencias en gestión del riesgo de funcionarios municipales"
             time_start: "14:00"
             time_end: "14:45"
-          - name: Inventario nacional de pérdidas por desastres 2000-2024
+          - name: "Diálogo intercultural para la integración del conocimiento local en la GRD"
             time_start: "14:45"
             time_end: "15:30"
-          - name: Teledetección aplicada a la identificación de amenazas
+          - name: "Rol de la mujer cabeza de hogar en la recuperación post-desastre en el Chocó"
             time_start: "15:45"
             time_end: "16:30"
-          - name: Evaluación de amenaza sísmica en zonas urbanas de Colombia
+          - name: "Violencia basada en género en contextos de desastre: evidencia colombiana"
             time_start: "16:30"
             time_end: "17:15"
-          - name: Modelación de inundaciones fluviales en cuencas andinas
+          - name: "Memoria histórica de desastres como herramienta de sensibilización comunitaria"
             time_start: "17:30"
             time_end: "18:15"
-          - name: Exposición y vulnerabilidad en municipios de alta montaña
+          - name: "Riesgo socioambiental en zonas de minería artesanal en el Bajo Cauca antioqueño"
             time_start: "18:15"
             time_end: "19:00"
 
       - name: "Solidaridad (Sala 3)"
         talks:
-          - name: Recuperación temprana y medios de vida post-desastre
+          - name: "Lecciones aprendidas de la respuesta al deslizamiento de Mocoa en 2017"
             time_start: "07:30"
             time_end: "08:15"
-          - name: Gestión de albergues temporales en emergencias masivas
+          - name: "Gestión de la información en el Centro de Operaciones de Emergencias Nacional"
             time_start: "08:15"
             time_end: "09:00"
-          - name: Simulacros y ejercicios de preparación comunitaria
+          - name: "Desmovilización de voluntarios tras operaciones de respuesta prolongadas"
             time_start: "09:15"
             time_end: "10:00"
-          - name: Coordinación interinstitucional en respuesta a emergencias
+          - name: "Impacto psicológico a largo plazo en respondedores de primera línea en Colombia"
             time_start: "10:00"
             time_end: "10:45"
-          - name: Logística humanitaria en zonas de difícil acceso
+          - name: "Acuerdos de asistencia mutua entre municipios: marco jurídico y operativo"
             time_start: "10:45"
             time_end: "11:30"
-          - name: Atención psicosocial en fases de respuesta y recuperación
+          - name: "Mantenimiento de equipos de búsqueda y rescate en contextos de alta humedad"
             time_start: "14:00"
             time_end: "14:45"
-          - name: Comunicación de riesgo en situaciones de crisis
+          - name: "Evaluación post-operación en el Sistema Comando de Incidentes colombiano"
             time_start: "14:45"
             time_end: "15:30"
-          - name: Protocolos de evacuación ante amenaza volcánica
+          - name: "Restablecimiento de servicios esenciales en la fase de recuperación temprana"
             time_start: "15:45"
             time_end: "16:30"
-          - name: Evaluación de daños y análisis de necesidades (EDAN)
+          - name: "Integración de actores privados en los planes municipales de contingencia"
             time_start: "16:30"
             time_end: "17:15"
-          - name: Sistemas de alerta temprana para crecientes súbitas
+          - name: "Gestión del conocimiento en organizaciones de respuesta a emergencias"
             time_start: "17:30"
             time_end: "18:15"
-          - name: Coordinación entre niveles de gobierno en emergencias
+          - name: "Planificación de la continuidad operativa en entidades del SNGRD"
             time_start: "18:15"
             time_end: "19:00"
 
       - name: "Cimientos (Sala 4)"
         talks:
-          - name: Soluciones basadas en la naturaleza para reducción de riesgo
+          - name: "Gestión del riesgo en zonas de frontera: desafíos de coordinación binacional"
             time_start: "07:30"
             time_end: "08:15"
-          - name: Jardines de lluvia y drenaje urbano sostenible
+          - name: "Política de asentamientos humanos y reducción del riesgo en Colombia"
             time_start: "08:15"
             time_end: "09:00"
-          - name: Reducción de riesgo de incendios forestales en Cundinamarca
+          - name: "Instrumentos económicos para la gestión del riesgo: tasas, cargos y subsidios"
             time_start: "09:15"
             time_end: "10:00"
-          - name: Protección de ecosistemas como medida de reducción del riesgo
+          - name: "Corrupción en la contratación de obras de mitigación: casos y lecciones aprendidas"
             time_start: "10:00"
             time_end: "10:45"
-          - name: Integración del riesgo en planes de desarrollo municipal
+          - name: "Evaluación de impacto de los Planes Departamentales de Gestión del Riesgo"
             time_start: "10:45"
             time_end: "11:30"
-          - name: Gestión comunitaria del riesgo en el Pacífico colombiano
+          - name: "Articulación entre la política de GRD y la política de cambio climático en Colombia"
             time_start: "14:00"
             time_end: "14:45"
-          - name: Participación comunitaria en la planificación del riesgo
+          - name: "Participación de la sociedad civil en los espacios de gobernanza del SNGRD"
             time_start: "14:45"
             time_end: "15:30"
-          - name: Reasentamiento de comunidades en zonas de alto riesgo
+          - name: "La gestión del riesgo como eje transversal en la política de desarrollo rural"
             time_start: "15:45"
             time_end: "16:30"
-          - name: Análisis de vulnerabilidad estructural en viviendas rurales
+          - name: "Marco regulatorio de las telecomunicaciones en situaciones de emergencia"
             time_start: "16:30"
             time_end: "17:15"
-          - name: Ordenamiento territorial y reducción del riesgo de desastres
+          - name: "Análisis costo-beneficio de las inversiones en reducción del riesgo en Colombia"
             time_start: "17:30"
             time_end: "18:15"
-          - name: Reforzamiento estructural de edificaciones escolares
+          - name: "Integración del riesgo de desastres en los ODS en el contexto colombiano"
             time_start: "18:15"
             time_end: "19:00"
 
       - name: "Gobernanza (Sala VIP)"
         talks:
-          - name: Aprendizaje automático en la evaluación de vulnerabilidad
+          - name: "Evaluación de la madurez digital de las entidades del SNGRD colombiano"
             time_start: "07:30"
             time_end: "08:15"
-          - name: Gemelos digitales de ciudades para planificación del riesgo
+          - name: "Inteligencia artificial explicable (XAI) en modelos de predicción de riesgo"
             time_start: "08:15"
             time_end: "09:00"
-          - name: Internet de las Cosas (IoT) en alerta temprana comunitaria
+          - name: "Integración de datos de satélites de baja órbita (LEO) en sistemas de alerta"
             time_start: "09:15"
             time_end: "10:00"
-          - name: Drones y sensores remotos en evaluación post-desastre
+          - name: "Gemelos digitales urbanos para la planificación del riesgo en Bogotá"
             time_start: "10:00"
             time_end: "10:45"
-          - name: Sistemas de información geográfica para la GRD
+          - name: "Plataforma nacional de datos abiertos de riesgo: gobernanza y estándares"
             time_start: "10:45"
             time_end: "11:30"
-          - name: Plataformas de datos abiertos para la gestión del riesgo
+          - name: "Machine learning para la detección automática de asentamientos en zonas de riesgo"
             time_start: "14:00"
             time_end: "14:45"
-          - name: Teledetección aplicada a la identificación de amenazas
+          - name: "Análisis de redes complejas en sistemas de infraestructura crítica interdependiente"
             time_start: "14:45"
             time_end: "15:30"
-          - name: "Redes de monitoreo sísmico en Colombia: avances y retos"
+          - name: "Blockchain y trazabilidad en la cadena logística de la ayuda humanitaria"
             time_start: "15:45"
             time_end: "16:30"
-          - name: Inteligencia artificial para la predicción de inundaciones
+          - name: "Procesamiento de señales de infrasónico para detección de erupciones volcánicas"
             time_start: "16:30"
             time_end: "17:15"
-          - name: Modelación numérica de flujos de lodo volcánico
+          - name: "Realidad virtual e inmersiva en la formación para la gestión del riesgo"
             time_start: "17:30"
             time_end: "18:15"
-          - name: Cartografía de susceptibilidad a movimientos en masa
+          - name: "Perspectivas de la computación cuántica para la modelación del riesgo de desastres"
             time_start: "18:15"
             time_end: "19:00"
 
       - name: "Entretejidos (Mezzanine)"
         talks:
-          - name: Construcción sismorresistente en contextos de autoconstrucción
+          - name: "Integración del riesgo de desastres en las cuentas nacionales ambientales"
             time_start: "07:30"
             time_end: "08:15"
-          - name: Reasentamiento de comunidades en zonas de alto riesgo
+          - name: "Gestión del riesgo en sistemas de transporte masivo en ciudades colombianas"
             time_start: "08:15"
             time_end: "09:00"
-          - name: Análisis de vulnerabilidad estructural en viviendas rurales
+          - name: "Impacto de los desastres en el patrimonio arqueológico colombiano"
             time_start: "09:15"
             time_end: "10:00"
-          - name: Reforzamiento estructural de edificaciones escolares
+          - name: "Riesgo de desastres en la economía del cuidado: afectaciones diferenciadas por género"
             time_start: "10:00"
             time_end: "10:45"
-          - name: Ordenamiento territorial y reducción del riesgo de desastres
+          - name: "Gestión del riesgo en zonas de producción cafetera: lecciones del Cenicafé"
             time_start: "10:45"
             time_end: "11:30"
-          - name: Modelación de inundaciones fluviales en cuencas andinas
+          - name: "Infraestructura de telecomunicaciones resiliente para zonas de alta sismicidad"
             time_start: "14:00"
             time_end: "14:45"
-          - name: Protección de ecosistemas como medida de reducción del riesgo
+          - name: "Seguro agrícola paramétrico como herramienta de transferencia del riesgo rural"
             time_start: "14:45"
             time_end: "15:30"
-          - name: Jardines de lluvia y drenaje urbano sostenible
+          - name: "Gestión del riesgo en el sector salud: hospitales seguros en Colombia"
             time_start: "15:45"
             time_end: "16:30"
-          - name: Soluciones basadas en la naturaleza para reducción de riesgo
+          - name: "Impacto de la deforestación en la generación de deslizamientos en el piedemonte"
             time_start: "16:30"
             time_end: "17:15"
-          - name: Reducción de riesgo de incendios forestales en Cundinamarca
+          - name: "Riesgo sistémico y cascada de fallas en infraestructura crítica interdependiente"
             time_start: "17:30"
             time_end: "18:15"
-          - name: Exposición y vulnerabilidad en municipios de alta montaña
+          - name: "Resiliencia urbana y planificación municipal en la región del Eje Cafetero"
             time_start: "18:15"
             time_end: "19:00"
 
       - name: "Horizonte (Capilla)"
         talks:
-          - name: Financiamiento público del riesgo de desastres en Colombia
+          - name: "Riesgo emergente por calor extremo urbano en las ciudades colombianas"
             time_start: "07:30"
             time_end: "08:15"
-          - name: Marcos legales para la gestión del riesgo en América Latina
+          - name: "Impactos del deshielo de nevados colombianos en la disponibilidad hídrica"
             time_start: "08:15"
             time_end: "09:00"
-          - name: Acuerdos internacionales y el Marco de Sendai en Colombia
+          - name: "Riesgo de sequía en la región Caribe ante escenarios de cambio climático"
             time_start: "09:15"
             time_end: "10:00"
-          - name: El papel de los gobiernos locales en la GRD
+          - name: "Transición hacia ciudades bajas en carbono y co-beneficios en resiliencia"
             time_start: "10:00"
             time_end: "10:45"
-          - name: Comunicación de riesgo en situaciones de crisis
+          - name: "Innovación en modelos de financiamiento de la recuperación post-desastre"
             time_start: "10:45"
             time_end: "11:30"
-          - name: Evaluación de daños y análisis de necesidades (EDAN)
+          - name: "Riesgo de pandemias y desastres compuestos: lecciones post-COVID para Colombia"
             time_start: "14:00"
             time_end: "14:45"
-          - name: Rendición de cuentas y transparencia en la GRD
+          - name: "Aprendizaje automático para la actualización dinámica de mapas de riesgo"
             time_start: "14:45"
             time_end: "15:30"
-          - name: Gestión del riesgo en el posconflicto colombiano
+          - name: "Perspectivas de la economía conductual en la adopción de medidas preventivas"
             time_start: "15:45"
             time_end: "16:30"
-          - name: Género y enfoque diferencial en la gestión del riesgo
+          - name: "Riesgo de desastres en la era de la inteligencia artificial generalizada"
             time_start: "16:30"
             time_end: "17:15"
-          - name: Percepción del riesgo sísmico en comunidades urbanas
+          - name: "El rol de la filantropía estratégica en el financiamiento de la resiliencia"
             time_start: "17:30"
             time_end: "18:15"
-          - name: Políticas públicas de reducción del riesgo en contextos urbanos
+          - name: "Futuro de la cooperación internacional en gestión del riesgo post-2030"
             time_start: "18:15"
             time_end: "19:00"
 
       - name: "Sinergia (Sala Piso 2)"
         talks:
-          - name: Percepción del riesgo sísmico en comunidades urbanas
+          - name: "El Marco de Sendai 2015-2030 a mitad de camino: avances y brechas globales"
             time_start: "07:30"
             time_end: "08:15"
-          - name: Exposición y vulnerabilidad en municipios de alta montaña
+          - name: "Experiencias latinoamericanas de integración del riesgo en el ordenamiento territorial"
             time_start: "08:15"
             time_end: "09:00"
-          - name: Evaluación de amenaza sísmica en zonas urbanas de Colombia
+          - name: "Gestión del riesgo en megaciudades: Ciudad de México, Lima y Bogotá comparadas"
             time_start: "09:15"
             time_end: "10:00"
-          - name: Inventario nacional de pérdidas por desastres 2000-2024
+          - name: "Transferencia de conocimiento en gestión del riesgo: el modelo de la red CAPRA"
             time_start: "10:00"
             time_end: "10:45"
-          - name: Inteligencia artificial para la predicción de inundaciones
+          - name: "Riesgo de desastres y refugiados climáticos: marcos internacionales de protección"
             time_start: "10:45"
             time_end: "11:30"
-          - name: Teledetección aplicada a la identificación de amenazas
+          - name: "Financiamiento climático para la adaptación y reducción del riesgo: brechas globales"
             time_start: "14:00"
             time_end: "14:45"
-          - name: Gestión comunitaria del riesgo en el Pacífico colombiano
+          - name: "Experiencias de alerta temprana comunitaria en África Subsahariana"
             time_start: "14:45"
             time_end: "15:30"
-          - name: Atención psicosocial en fases de respuesta y recuperación
+          - name: "Gestión del riesgo en contextos de conflicto armado: el nexo humanitario-desarrollo"
             time_start: "15:45"
             time_end: "16:30"
-          - name: Sistemas de alerta temprana para crecientes súbitas
+          - name: "El papel de las ciudades en la diplomacia del riesgo de desastres"
             time_start: "16:30"
             time_end: "17:15"
-          - name: Participación comunitaria en la planificación del riesgo
+          - name: "Indicadores globales de reducción del riesgo: medición y comparabilidad entre países"
             time_start: "17:30"
             time_end: "18:15"
-          - name: Zonificación de amenaza por lahares en el volcán Nevado del Ruiz
+          - name: "Nuevas arquitecturas de financiamiento para la resiliencia post-2030"
             time_start: "18:15"
             time_end: "19:00"
+

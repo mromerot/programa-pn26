@@ -1,0 +1,32 @@
+{% include header.html %}
+
+  <h1 class="display-5 mb-4 text-break">
+    {% if page.title %}
+      {{ page.title }}
+    {% else %}
+      {{ site.data.lang[site.conference.lang].location.rooms | default: "Salas" }}
+    {% endif %}
+  </h1>
+
+  {{ content }}
+
+  <div class="col-count-1 col-count-md-2 col-count-lg-3">
+    {% for room in site.rooms %}
+      {% unless room.hide %}
+        <div class="col-count card mb-3 border-top-0">
+          <div class="card-body">
+            <h5 class="card-title">
+              <a class="link-underline-primary link-underline-opacity-0 link-underline-opacity-100-hover text-reset" href="{{ room.url | prepend: site.baseurl }}">
+                {{ room.name }}
+              </a>
+            </h5>
+            {% if room.content and room.content != '' %}
+              <p class="card-text fw-light small">{{ room.content | strip_html | truncatewords: 20 }}</p>
+            {% endif %}
+          </div>
+        </div>
+      {% endunless %}
+    {% endfor %}
+  </div>
+
+{% include footer.html %}

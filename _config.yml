@@ -20,6 +20,8 @@ conference:
         relative_url: /program/
       - name: Sesiones
         relative_url: /talks/
+      - name: Salas
+        relative_url: /salas/
       - name: Escenarios en Vivo
         relative_url: /escenarios-en-vivo/
       - name: Stands

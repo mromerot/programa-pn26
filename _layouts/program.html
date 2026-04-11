@@ -133,8 +133,8 @@
                 {%- assign b_dur_min    = b_end_hour | minus: b_start_hour | times: 60 | minus: b_start_min | plus: b_end_min -%}
                 {%- assign b_steps      = b_dur_min | divided_by: page.time_steps -%}
                 {%- assign b_cols       = nbr_rooms | times: 2 | minus: 1 -%}
-                <td colspan="{{ b_cols }}" rowspan="{{ b_steps }}" style="text-align:center; vertical-align:middle; background-color:#fff3cd; color:#664d03; border-left:4px solid #ffc107; font-weight:600; font-size:0.95rem; padding:0.5rem 1rem; white-space:nowrap;">
-                  ☕ {{ active_break.name }}
+                <td colspan="{{ b_cols }}" rowspan="{{ b_steps }}" style="text-align:center; vertical-align:middle; background-color:#e9ecef; color:#495057; border-left:4px solid #adb5bd; font-weight:600; font-size:0.95rem; height:3rem; min-height:3rem; overflow:visible;">
+                  {{ active_break.name }}
                 </td>
 
               {%- elsif in_ongoing_break == false -%}

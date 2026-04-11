@@ -28,6 +28,9 @@
     {%- unless page_title == empty %} - {% endunless -%}
     {{- site.title -}}
   </title>
+  <link rel="icon" type="image/x-icon" href="{{ '/assets/images/favicon.ico' | prepend: site.baseurl }}" />
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/logo-pn26-icono.png' | prepend: site.baseurl }}" />
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/apple-touch-icon.png' | prepend: site.baseurl }}" />
   {% include list_header_meta.html %}
 
   {% if site.conference.custom_style == "bootstrap" %}

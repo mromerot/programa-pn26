@@ -125,21 +125,27 @@
               {%- endif %}
               <td></td>
 
-              {%- if break_starts_now -%}
-                {%- assign b_start_hour = active_break.time_start | split: ':' | first | plus: 0 -%}
-                {%- assign b_start_min  = active_break.time_start | split: ':' | last  | plus: 0 -%}
-                {%- assign b_end_hour   = active_break.time_end   | split: ':' | first | plus: 0 -%}
-                {%- assign b_end_min    = active_break.time_end   | split: ':' | last  | plus: 0 -%}
-                {%- assign b_dur_min    = b_end_hour | minus: b_start_hour | times: 60 | minus: b_start_min | plus: b_end_min -%}
-                {%- assign b_steps      = b_dur_min | divided_by: page.time_steps -%}
-                {%- assign b_cols       = nbr_rooms | times: 2 | minus: 1 -%}
-                <td colspan="{{ b_cols }}" rowspan="{{ b_steps }}" style="background-color:#e9ecef; border-left:4px solid #adb5bd; padding:0;">
-                  <div style="min-height:50px; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:1rem; color:#333;">
-                    {{ active_break.name }}
-                  </div>
-                </td>
+              {%- if break_starts_now or in_ongoing_break -%}
+                {%- assign b_cols = nbr_rooms | times: 2 | minus: 1 -%}
+                {%- for b in d.breaks -%}
+                  {%- assign b_start_hour = b.time_start | split: ':' | first | plus: 0 -%}
+                  {%- assign b_start_min  = b.time_start | split: ':' | last  | plus: 0 -%}
+                  {%- assign b_end_hour   = b.time_end   | split: ':' | first | plus: 0 -%}
+                  {%- assign b_end_min    = b.time_end   | split: ':' | last  | plus: 0 -%}
+                  {%- assign after_start_b = false -%}
+                  {%- if current_hour > b_start_hour -%}{%- assign after_start_b = true -%}{%- endif -%}
+                  {%- if current_hour == b_start_hour and current_min >= b_start_min -%}{%- assign after_start_b = true -%}{%- endif -%}
+                  {%- assign before_end_b = false -%}
+                  {%- if current_hour < b_end_hour -%}{%- assign before_end_b = true -%}{%- endif -%}
+                  {%- if current_hour == b_end_hour and current_min < b_end_min -%}{%- assign before_end_b = true -%}{%- endif -%}
+                  {%- if after_start_b and before_end_b -%}
+                    <td colspan="{{ b_cols }}" style="background-color:#e9ecef; border-left:4px solid #adb5bd; text-align:center; font-weight:700; font-size:0.95rem; color:#333; padding:4px 8px;">
+                      {{ b.name }}
+                    </td>
+                  {%- endif -%}
+                {%- endfor -%}
 
-              {%- elsif in_ongoing_break == false -%}
+              {%- else -%}
 
                 {%- for r in d.rooms -%}
                   {%- assign room = site.rooms | where: 'name', r.name | first -%}
@@ -211,7 +217,7 @@
 
                 {%- endfor %}
 
-              {%- endif -%}
+              {%- endif %}
 
             </tr>
           {%- endfor %}

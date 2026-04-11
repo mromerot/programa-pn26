@@ -15,8 +15,8 @@ postal_address:
   region: "Cundinamarca"
   country: "CO"
 ---
+Este es el plano de la PN26 en el Centro de Convenciones G12. La esquina inferior derecha corresponde al acceso por la carrera 30.
+
+![Plano del Centro de Convenciones G12]({{ '/assets/images/Plano-g12.png' | relative_url }})
+
 La **Plataforma Nacional para la Gestión del Riesgo de Desastres 2026 (PN26)** se realizará en el **Centro de Convenciones G12**, ubicado en la Cl. 22c #31-01, Bogotá, del 20 al 22 de mayo de 2026.
-
-El evento es convocado por la **Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD)** y es de acceso libre. Los participantes asumen sus propios costos de desplazamiento y alojamiento.
-
-Para más información: [pn26@gestiondelriesgo.gov.co](mailto:pn26@gestiondelriesgo.gov.co)

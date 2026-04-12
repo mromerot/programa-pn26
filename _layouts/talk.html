@@ -1,0 +1,188 @@
+{%- assign talk = page -%}
+
+{%- unless talk.hide -%}
+  {%- include header.html -%}
+
+  {% if talk.track or talk.tags.size > 0 %}
+    <div class="d-flex flex-md-row flex-column container-fluid mb-2 p-0">
+      {% if talk.track %}
+        <div class="h6 mt-2 mb-0 me-1 pe-1 pb-1">
+          {% include get_track_properties.html %}
+          <span class="d-block d-sm-inline p-1 px-2 bg-{{ track_color }}-subtle text-{{ track_color }}-emphasis border-start border-4 border-{{ track_color }}-subtle fw-normal">
+            {{ talk.track }}
+          </span>
+        </div>
+      {% endif %}
+
+      {% if talk.tags.size > 0 %}
+        <div class="h6 mt-2 mb-0 ms-1 pe-1 pb-1">
+          {% for tag in talk.tags %}
+            {%- include get_tag_icon.html -%}
+            <span class="me-2">{{ tag_html }}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  <h1 class="fw-light text-break">{{ talk.name }}</h1>
+
+  <p class="mb-3 fw-light">
+    {% include list_speakers.html %}
+  </p>
+
+  <div class="mb-3 p-0">
+    {% for d in site.data.program.days -%}
+      {%- include get_day_hash.html -%}
+      {%- for r in d.rooms -%}
+        {%- for t in r.talks -%}
+          {%- if talk.name == t.name -%}
+            {%- include show_talk_info.html -%}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    {% endfor %}
+  </div>
+
+  {%- comment -%} Buscar datos del evento para los calendarios {%- endcomment -%}
+  {%- assign cal_date = "" -%}
+  {%- assign cal_start = "" -%}
+  {%- assign cal_end = "" -%}
+  {%- assign cal_room = "" -%}
+  {%- for d in site.data.program.days -%}
+    {%- for r in d.rooms -%}
+      {%- for t in r.talks -%}
+        {%- if talk.name == t.name -%}
+          {%- assign cal_date = d.date -%}
+          {%- assign cal_start = t.time_start -%}
+          {%- assign cal_end = t.time_end -%}
+          {%- assign cal_room = r.name -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endfor -%}
+  {%- endfor -%}
+
+  {%- if cal_date != "" -%}
+    {%- assign gc_date = cal_date | remove: '-' -%}
+    {%- assign gc_start = cal_start | remove: ':' | append: '00' -%}
+    {%- assign gc_end   = cal_end   | remove: ':' | append: '00' -%}
+    {%- assign gc_dates = gc_date | append: 'T' | append: gc_start | append: '/' | append: gc_date | append: 'T' | append: gc_end -%}
+    {%- assign gc_url = 'https://calendar.google.com/calendar/render?action=TEMPLATE&text=' | append: talk.name | url_encode | append: '&dates=' | append: gc_dates | append: '&location=' | append: cal_room | url_encode | append: '&ctz=America%2FBogota' -%}
+
+    {%- assign ol_start = cal_date | append: 'T' | append: cal_start | append: ':00' -%}
+    {%- assign ol_end   = cal_date | append: 'T' | append: cal_end   | append: ':00' -%}
+    {%- assign ol_url = 'https://outlook.live.com/calendar/0/deeplink/compose?subject=' | append: talk.name | url_encode | append: '&startdt=' | append: ol_start | append: '&enddt=' | append: ol_end | append: '&location=' | append: cal_room | url_encode -%}
+
+    <div class="mb-4 d-print-none">
+      <div class="d-flex flex-wrap gap-2 align-items-center">
+        <small class="text-muted me-1">Agregar a calendario:</small>
+        <a href="{{ gc_url }}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-danger">
+          <i class="bi bi-google" aria-hidden="true"></i> Google Calendar
+        </a>
+        <a href="{{ ol_url }}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-primary">
+          <i class="bi bi-microsoft" aria-hidden="true"></i> Outlook
+        </a>
+        <button
+          class="btn btn-sm btn-outline-secondary"
+          data-title="{{ talk.name | xml_escape }}"
+          data-date="{{ cal_date }}"
+          data-start="{{ cal_start }}"
+          data-end="{{ cal_end }}"
+          data-room="{{ cal_room | xml_escape }}"
+          onclick="downloadICS(this)"
+        >
+          <i class="bi bi-file-earmark-arrow-down" aria-hidden="true"></i> Descargar .ics
+        </button>
+      </div>
+    </div>
+
+    <script>
+    function downloadICS(btn) {
+      var title = btn.dataset.title;
+      var date  = btn.dataset.date.replace(/-/g, '');
+      var start = btn.dataset.start.replace(/:/g, '') + '00';
+      var end   = btn.dataset.end.replace(/:/g, '') + '00';
+      var room  = btn.dataset.room;
+      var uid   = date + 'T' + start + '-' + Math.random().toString(36).slice(2, 9) + '@pn26.ungrd';
+      var now   = new Date().toISOString().replace(/[-:.]/g, '').slice(0, 15) + 'Z';
+
+      var ics = [
+        'BEGIN:VCALENDAR',
+        'VERSION:2.0',
+        'PRODID:-//PN26 UNGRD//ES',
+        'CALSCALE:GREGORIAN',
+        'METHOD:PUBLISH',
+        'BEGIN:VTIMEZONE',
+        'TZID:America/Bogota',
+        'BEGIN:STANDARD',
+        'TZOFFSETFROM:-0500',
+        'TZOFFSETTO:-0500',
+        'TZNAME:COT',
+        'DTSTART:19700101T000000',
+        'END:STANDARD',
+        'END:VTIMEZONE',
+        'BEGIN:VEVENT',
+        'UID:' + uid,
+        'DTSTAMP:' + now,
+        'DTSTART;TZID=America/Bogota:' + date + 'T' + start,
+        'DTEND;TZID=America/Bogota:'   + date + 'T' + end,
+        'SUMMARY:' + title.replace(/\n/g, '\\n').replace(/,/g, '\\,').replace(/;/g, '\\;'),
+        'LOCATION:' + room.replace(/,/g, '\\,').replace(/;/g, '\\;'),
+        'DESCRIPTION:Plataforma Nacional para la Gestión del Riesgo de Desastres 2026',
+        'END:VEVENT',
+        'END:VCALENDAR'
+      ].join('\r\n');
+
+      var blob = new Blob([ics], { type: 'text/calendar;charset=utf-8' });
+      var a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = title.slice(0, 40).replace(/[^a-z0-9áéíóúüñ]/gi, '_') + '.ics';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(a.href);
+    }
+    </script>
+  {%- endif -%}
+
+  {{ content }}
+
+  {% include get_link_types.html %}
+
+  {% if has_icon_links > 0 %}
+    <ul class="list-unstyled">
+      {% for link in talk.links %}
+        {% include get_link.html type="icon" color=track_color %}
+        {% if link_valid %}
+          {{ link_list_item }}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% if has_regular_links > 0 %}
+    <h5 class="mt-4 mb-1">{{ site.data.lang[site.conference.lang].more_information | default: "More information" }}:</h5>
+
+    <ul class="list-unstyled">
+      {% for link in talk.links %}
+        {% include get_link.html color=track_color %}
+        {% if link_valid %}
+          {{ link_list_item }}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  <p class="d-print-none d-pwa-none mt-5">
+    <a href="{{ page.collection | prepend: '/' | prepend: site.baseurl }}" class="btn btn-outline-secondary me-2">
+      <i class="bi bi-megaphone" aria-hidden="true"></i>&nbsp;{{ site.data.lang[site.conference.lang].overview | default: "Overview" }}
+    </a>
+
+    {%- include get_program_config.html -%}
+    <a href="{{ program_url | prepend: site.baseurl }}" class="btn btn-outline-secondary">
+      <i class="bi bi-calendar4-week" aria-hidden="true"></i>&nbsp;{{ site.data.lang[site.conference.lang].program.title | default: "Program" }}
+    </a>
+  </p>
+
+  {%- include footer.html -%}
+{%- endunless -%}
